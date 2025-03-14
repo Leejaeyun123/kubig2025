@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ljy/Desktop/kubig2025/sqlQuerry/bookSql.c" "CMakeFiles/bookSql.dir/bookSql.c.o" "gcc" "CMakeFiles/bookSql.dir/bookSql.c.o.d"
+  "/home/ljy/Desktop/kubig2025/sqlQuery/bookSql.c" "CMakeFiles/bookSql.dir/bookSql.c.o" "gcc" "CMakeFiles/bookSql.dir/bookSql.c.o.d"
   )
 
 # Targets to which this target links.

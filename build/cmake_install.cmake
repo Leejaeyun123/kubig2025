@@ -1,4 +1,4 @@
-# Install script for directory: /home/ljy/Desktop/kubig2025/sqlQuerry
+# Install script for directory: /home/ljy/Desktop/kubig2025/sqlQuery
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

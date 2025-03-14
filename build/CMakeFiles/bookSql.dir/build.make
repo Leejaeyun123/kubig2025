@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljy/Desktop/kubig2025/sqlQuerry
+CMAKE_SOURCE_DIR = /home/ljy/Desktop/kubig2025/sqlQuery
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ljy/Desktop/kubig2025/build
@@ -70,18 +70,18 @@ include CMakeFiles/bookSql.dir/progress.make
 include CMakeFiles/bookSql.dir/flags.make
 
 CMakeFiles/bookSql.dir/bookSql.c.o: CMakeFiles/bookSql.dir/flags.make
-CMakeFiles/bookSql.dir/bookSql.c.o: /home/ljy/Desktop/kubig2025/sqlQuerry/bookSql.c
+CMakeFiles/bookSql.dir/bookSql.c.o: /home/ljy/Desktop/kubig2025/sqlQuery/bookSql.c
 CMakeFiles/bookSql.dir/bookSql.c.o: CMakeFiles/bookSql.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ljy/Desktop/kubig2025/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/bookSql.dir/bookSql.c.o"
-	/usr/bin/c89-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bookSql.dir/bookSql.c.o -MF CMakeFiles/bookSql.dir/bookSql.c.o.d -o CMakeFiles/bookSql.dir/bookSql.c.o -c /home/ljy/Desktop/kubig2025/sqlQuerry/bookSql.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bookSql.dir/bookSql.c.o -MF CMakeFiles/bookSql.dir/bookSql.c.o.d -o CMakeFiles/bookSql.dir/bookSql.c.o -c /home/ljy/Desktop/kubig2025/sqlQuery/bookSql.c
 
 CMakeFiles/bookSql.dir/bookSql.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bookSql.dir/bookSql.c.i"
-	/usr/bin/c89-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ljy/Desktop/kubig2025/sqlQuerry/bookSql.c > CMakeFiles/bookSql.dir/bookSql.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ljy/Desktop/kubig2025/sqlQuery/bookSql.c > CMakeFiles/bookSql.dir/bookSql.c.i
 
 CMakeFiles/bookSql.dir/bookSql.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bookSql.dir/bookSql.c.s"
-	/usr/bin/c89-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ljy/Desktop/kubig2025/sqlQuerry/bookSql.c -o CMakeFiles/bookSql.dir/bookSql.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ljy/Desktop/kubig2025/sqlQuery/bookSql.c -o CMakeFiles/bookSql.dir/bookSql.c.s
 
 # Object files for target bookSql
 bookSql_OBJECTS = \
@@ -105,6 +105,6 @@ CMakeFiles/bookSql.dir/clean:
 .PHONY : CMakeFiles/bookSql.dir/clean
 
 CMakeFiles/bookSql.dir/depend:
-	cd /home/ljy/Desktop/kubig2025/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljy/Desktop/kubig2025/sqlQuerry /home/ljy/Desktop/kubig2025/sqlQuerry /home/ljy/Desktop/kubig2025/build /home/ljy/Desktop/kubig2025/build /home/ljy/Desktop/kubig2025/build/CMakeFiles/bookSql.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljy/Desktop/kubig2025/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljy/Desktop/kubig2025/sqlQuery /home/ljy/Desktop/kubig2025/sqlQuery /home/ljy/Desktop/kubig2025/build /home/ljy/Desktop/kubig2025/build /home/ljy/Desktop/kubig2025/build/CMakeFiles/bookSql.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bookSql.dir/depend
 

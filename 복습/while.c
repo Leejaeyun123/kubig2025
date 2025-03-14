@@ -1,32 +1,16 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
-    char a;
-    int b;
-    int c;
-
-    printf("문자를 입력\n");
-    scanf("%c", &a);
-    printf("문자는 %c다\n", a);
-    printf("숫자를 입력\n");
-    scanf("%d%d", &b, &c);
-    printf("숫자는 %d, %d이다\n", b, c);
-
+    int a;
     do
     {
-        if (a == "a" && b == 5)
-        {
-            printf("정답1\n");
-        }
-        else if (a == "b" || c == 6)
-        {
-            printf("정답2\n");
-        }
-        else
-        {
-            ("정답이 아니다");
-        }
-        while (b == 5 || c == 6)
-            ;
-    }
+        printf("메뉴를 고르세요\n");
+        printf("1.짜장면\n");
+        printf("2.짬뽕\n");
+        printf("3.볶음밥\n");
+        printf("4.탕수육\n");
+        scanf("%d", &a);
+    } while (a > 4);
+    printf("%d를 선택하셨습니다.", a);
+}
