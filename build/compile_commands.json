@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build",
+  "command": "/usr/bin/c89-gcc  -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/bookSql.c.o -c /home/ljy/Desktop/kubig2025/sqlQuerry/bookSql.c",
+  "file": "/home/ljy/Desktop/kubig2025/sqlQuerry/bookSql.c"
+}
+]
