@@ -144,7 +144,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=bookSql
+CMAKE_PROJECT_NAME:STATIC=MainProject
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -209,13 +209,85 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-bookSql_BINARY_DIR:STATIC=/home/ljy/Desktop/kubig2025/build
+MainProject_BINARY_DIR:STATIC=/home/ljy/Desktop/kubig2025/build
 
 //Value Computed by CMake
-bookSql_IS_TOP_LEVEL:STATIC=ON
+MainProject_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+MainProject_SOURCE_DIR:STATIC=/home/ljy/Desktop/kubig2025
+
+//Value Computed by CMake
+bookSql_BINARY_DIR:STATIC=/home/ljy/Desktop/kubig2025/build/sqlQuery
+
+//Value Computed by CMake
+bookSql_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 bookSql_SOURCE_DIR:STATIC=/home/ljy/Desktop/kubig2025/sqlQuery
+
+//Value Computed by CMake
+carSerial_BINARY_DIR:STATIC=/home/ljy/Desktop/kubig2025/build/c_example/part3/carSerial
+
+//Value Computed by CMake
+carSerial_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+carSerial_SOURCE_DIR:STATIC=/home/ljy/Desktop/kubig2025/c_example/part3/carSerial
+
+//Value Computed by CMake
+date_BINARY_DIR:STATIC=/home/ljy/Desktop/kubig2025/build/c_example/part3/date
+
+//Value Computed by CMake
+date_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+date_SOURCE_DIR:STATIC=/home/ljy/Desktop/kubig2025/c_example/part3/date
+
+//Value Computed by CMake
+myRandom_BINARY_DIR:STATIC=/home/ljy/Desktop/kubig2025/build/c_example/part3/myRandom
+
+//Value Computed by CMake
+myRandom_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+myRandom_SOURCE_DIR:STATIC=/home/ljy/Desktop/kubig2025/c_example/part3/myRandom
+
+//Value Computed by CMake
+myString_BINARY_DIR:STATIC=/home/ljy/Desktop/kubig2025/build/c_example/part3/string
+
+//Value Computed by CMake
+myString_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+myString_SOURCE_DIR:STATIC=/home/ljy/Desktop/kubig2025/c_example/part3/string
+
+//Value Computed by CMake
+part1_BINARY_DIR:STATIC=/home/ljy/Desktop/kubig2025/build/c_example/part1
+
+//Value Computed by CMake
+part1_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+part1_SOURCE_DIR:STATIC=/home/ljy/Desktop/kubig2025/c_example/part1
+
+//Value Computed by CMake
+part2_BINARY_DIR:STATIC=/home/ljy/Desktop/kubig2025/build/c_example/part2
+
+//Value Computed by CMake
+part2_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+part2_SOURCE_DIR:STATIC=/home/ljy/Desktop/kubig2025/c_example/part2
+
+//Value Computed by CMake
+part3_BINARY_DIR:STATIC=/home/ljy/Desktop/kubig2025/build/c_example/part3
+
+//Value Computed by CMake
+part3_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+part3_SOURCE_DIR:STATIC=/home/ljy/Desktop/kubig2025/c_example/part3
 
 
 ########################
@@ -300,7 +372,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/ljy/Desktop/kubig2025/sqlQuery
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/ljy/Desktop/kubig2025
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -320,7 +392,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

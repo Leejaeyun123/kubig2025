@@ -4,7 +4,7 @@ project(myRandom)
 # 소스 파일 설정
 set(SOURCES
     main.c
-    date.c
+    myRandom.c
 )
 
 include_directories(${CMAKE_CURRENT_LIST_DIR})
