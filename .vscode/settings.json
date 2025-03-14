@@ -33,7 +33,6 @@
         "variant": "c",
         "thread": "c"
     },
-    "ros.distro": "humble",
-    "cmake.sourceDirectory": "/home/ljy/Desktop/kubig2025/sqlQuery"
+    "cmake.sourceDirectory": "/home/ljy/Desktop/kubig2025"
 
 }
