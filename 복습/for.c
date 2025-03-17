@@ -1,14 +1,16 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
-    int i;
-    char a;
-    printf("이름을 입력");
-    scanf("%c", &a);
-    for (i = 1; i <= 5; i++)
+    int i, n;
+    char name[10];
+    printf("반복하고 싶은 말은?:");
+    scanf("%s", name);
+    printf("몇번 반복할까요?:");
+    scanf("%d", &n);
+    for (i = 1; i <= n; i++)
     {
-        printf("%c \n", a);
+        printf("%s \n", name);
     }
-    printf("%c\n를 5번 반복하였습니다.", a);
+    printf("\n %s를 %d반복", name, n);
 }

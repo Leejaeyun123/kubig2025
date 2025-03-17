@@ -1,7 +1,442 @@
 [
 {
-  "directory": "/home/ljy/Desktop/kubig2025/build",
-  "command": "/usr/bin/gcc  -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/bookSql.c.o -c /home/ljy/Desktop/kubig2025/sqlQuery/bookSql.c",
-  "file": "/home/ljy/Desktop/kubig2025/sqlQuery/bookSql.c"
+  "directory": "/home/ljy/Desktop/kubig2025/build/sqlQuery",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/sqlQuery/include -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/src/bookSql.c.o -c /home/ljy/Desktop/kubig2025/sqlQuery/src/bookSql.c",
+  "file": "/home/ljy/Desktop/kubig2025/sqlQuery/src/bookSql.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/sqlQuery",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/sqlQuery/include -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/src/main.c.o -c /home/ljy/Desktop/kubig2025/sqlQuery/src/main.c",
+  "file": "/home/ljy/Desktop/kubig2025/sqlQuery/src/main.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/bowling",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/bowling/include -I/usr/include/mysql -g -o CMakeFiles/bowling.dir/src/bowling.c.o -c /home/ljy/Desktop/kubig2025/bowling/src/bowling.c",
+  "file": "/home/ljy/Desktop/kubig2025/bowling/src/bowling.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/bowling",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/bowling/include -I/usr/include/mysql -g -o CMakeFiles/bowling.dir/src/board.c.o -c /home/ljy/Desktop/kubig2025/bowling/src/board.c",
+  "file": "/home/ljy/Desktop/kubig2025/bowling/src/board.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/bowling",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/bowling/include -I/usr/include/mysql -g -o CMakeFiles/bowling.dir/src/main.c.o -c /home/ljy/Desktop/kubig2025/bowling/src/main.c",
+  "file": "/home/ljy/Desktop/kubig2025/bowling/src/main.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/bowling",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/bowling/include -I/usr/include/mysql -g -o CMakeFiles/bowling.dir/src/bowlingsql.c.o -c /home/ljy/Desktop/kubig2025/bowling/src/bowlingsql.c",
+  "file": "/home/ljy/Desktop/kubig2025/bowling/src/bowlingsql.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/arithmetics.dir/arithmetics.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/arithmetics.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/arithmetics.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/celsius2fahr.dir/celsius2fahr.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/celsius2fahr.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/celsius2fahr.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/charNumber.dir/charNumber.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/charNumber.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/charNumber.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/compare.dir/compare.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/compare.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/compare.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/compare2.dir/compare2.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/compare2.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/compare2.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/ddd.dir/ddd.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/ddd.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/ddd.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/fahr2celsius.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/fahr2celsius.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fourBit.dir/fourBit.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/fourBit.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/fourBit.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fourBit2.dir/fourBit2.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/fourBit2.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/fourBit2.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/genderRatio.dir/genderRatio.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/genderRatio.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/genderRatio.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/increment.dir/increment.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/increment.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/increment.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/infinit.dir/infinit.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/infinit.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/infinit.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/limit.dir/limit.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/limit.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/limit.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/literal.dir/literal.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/literal.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/literal.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/oddeven.dir/oddeven.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/oddeven.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/oddeven.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sizeof.dir/sizeof.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/sizeof.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/sizeof.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/triangle.dir/triangle.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/triangle.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/triangle.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/triangle2.dir/triangle2.c.o -c /home/ljy/Desktop/kubig2025/c_example/part1/triangle2.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part1/triangle2.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/absolute.dir/absolute.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/absolute.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/absolute.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/ascii.dir/ascii.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/ascii.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/ascii.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/average2022Temp.dir/average2022Temp.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/average2022Temp.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/average2022Temp.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/baseball.dir/baseball.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/baseball.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/baseball.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/bigLetter.dir/bigLetter.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/bigLetter.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/bigLetter.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/dice.dir/dice.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/dice.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/dice.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/findMax.dir/findMax.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/findMax.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/findMax.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/findValueArray.dir/findValueArray.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/findValueArray.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/findValueArray.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/functionSum.dir/functionSum.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/functionSum.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/functionSum.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/grade.dir/grade.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/grade.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/grade.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/grade2.dir/grade2.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/grade2.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/grade2.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/leafYear.dir/leafYear.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/leafYear.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/leafYear.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/multiplyTable.dir/multiplyTable.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/multiplyTable.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/multiplyTable.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/one2Ten.dir/one2Ten.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/one2Ten.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/one2Ten.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/one2TenDoWhile.dir/one2TenDoWhile.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/one2TenDoWhile.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/one2TenDoWhile.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/one2TenWhile.dir/one2TenWhile.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/one2TenWhile.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/one2TenWhile.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/one2tensum.dir/one2tensum.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/one2tensum.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/one2tensum.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/passFail.dir/passFail.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/passFail.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/passFail.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/posZeroNeg.dir/posZeroNeg.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/posZeroNeg.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/posZeroNeg.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/power.dir/power.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/power.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/power.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/procScore.dir/procScore.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/procScore.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/procScore.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/randomTwolnt.dir/randomTwolnt.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/randomTwolnt.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/randomTwolnt.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/returnValue.dir/returnValue.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/returnValue.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/returnValue.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/scoreGrade.dir/scoreGrade.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/scoreGrade.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/scoreGrade.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/star.dir/star.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/star.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/star.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/staticLocalVariable.dir/staticLocalVariable.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/staticLocalVariable.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/staticLocalVariable.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sumArray.dir/sumArray.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/sumArray.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/sumArray.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sumMatrix.dir/sumMatrix.c.o -c /home/ljy/Desktop/kubig2025/c_example/part2/sumMatrix.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part2/sumMatrix.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/arrayAssignment.dir/arrayAssignment.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/arrayAssignment.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/arrayAssignment.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/arrayCompare.dir/arrayCompare.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/arrayCompare.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/arrayCompare.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/arrayPointer.dir/arrayPointer.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/arrayPointer.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/arrayPointer.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/bubble.dir/bubble.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/bubble.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/bubble.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/charAdress.dir/charAdress.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/charAdress.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/charAdress.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/charPointerOperation.dir/charPointerOperation.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/charPointerOperation.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/charPointerOperation.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/dynamicAllocation.dir/dynamicAllocation.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/dynamicAllocation.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/dynamicAllocation.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/endian.dir/endian.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/endian.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/endian.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/enumExample.dir/enumExample.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/enumExample.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/enumExample.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fflushEx.dir/fflushEx.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/fflushEx.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/fflushEx.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fileDescriptor.dir/fileDescriptor.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/fileDescriptor.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/fileDescriptor.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/filePointer.dir/filePointer.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/filePointer.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/filePointer.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/functionPointer.dir/functionPointer.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/functionPointer.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/functionPointer.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/getSeries.dir/getSeries.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/getSeries.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/getSeries.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/helloStr.dir/helloStr.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/helloStr.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/helloStr.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/pointer2.dir/pointer2.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/pointer2.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/pointer2.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/pointerConcept.dir/pointerConcept.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/pointerConcept.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/pointerConcept.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/putSeries.dir/putSeries.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/putSeries.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/putSeries.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/qsort.dir/qsort.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/qsort.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/qsort.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/selection.dir/selection.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/selection.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/selection.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/stringExample.dir/stringExample.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/stringExample.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/stringExample.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sumArrayFunction.dir/sumArrayFunction.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/sumArrayFunction.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/sumArrayFunction.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sumMatrixFunction.dir/sumMatrixFunction.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/sumMatrixFunction.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/sumMatrixFunction.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sumMatrixFunction2.dir/sumMatrixFunction2.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/sumMatrixFunction2.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/sumMatrixFunction2.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/swap.dir/swap.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/swap.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/swap.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/swapFunction.dir/swapFunction.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/swapFunction.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/swapFunction.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/unionExample.dir/unionExample.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/unionExample.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/unionExample.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/voidPointer.dir/voidPointer.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/voidPointer.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/voidPointer.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3/carSerial",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/c_example/part3/carSerial -g -o CMakeFiles/carSerial.dir/main.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/carSerial/main.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/carSerial/main.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3/carSerial",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/c_example/part3/carSerial -g -o CMakeFiles/carSerial.dir/serial.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/carSerial/serial.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/carSerial/serial.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3/date",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/c_example/part3/date -g -o CMakeFiles/date.dir/main.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/date/main.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/date/main.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3/date",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/c_example/part3/date -g -o CMakeFiles/date.dir/date.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/date/date.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/date/date.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3/myRandom",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/c_example/part3/myRandom -g -o CMakeFiles/myRandom.dir/main.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/myRandom/main.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/myRandom/main.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3/myRandom",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/c_example/part3/myRandom -g -o CMakeFiles/myRandom.dir/myRandom.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/myRandom/myRandom.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/myRandom/myRandom.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3/string",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/c_example/part3/string -g -o CMakeFiles/myString.dir/main.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/string/main.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/string/main.c"
+},
+{
+  "directory": "/home/ljy/Desktop/kubig2025/build/c_example/part3/string",
+  "command": "/usr/bin/gcc  -I/home/ljy/Desktop/kubig2025/c_example/part3/string -g -o CMakeFiles/myString.dir/myString.c.o -c /home/ljy/Desktop/kubig2025/c_example/part3/string/myString.c",
+  "file": "/home/ljy/Desktop/kubig2025/c_example/part3/string/myString.c"
 }
 ]

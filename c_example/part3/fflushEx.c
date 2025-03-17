@@ -4,11 +4,13 @@
 int main(void)
 {
     printf("hello, world!");
-    fflush(stdout;)
-        sleep(1);
-    printf("hello, world!") : fflush(stdout;)
-                                  sleep(1);
-    printf("hello, world!") : fflush(stdout;)
-                                  sleep(1);
+    fflush(stdout);
+    sleep(1);
+    printf("hello, world!");
+    fflush(stdout);
+    sleep(1);
+    printf("hello, world!");
+    fflush(stdout);
+    sleep(1);
     return 0;
 }

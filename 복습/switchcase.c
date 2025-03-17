@@ -19,12 +19,11 @@ int main()
             break;
 
         case 3:
-            printf("송금을 선택하셨군요.n");
+            printf("송금을 선택하셨군요.\n");
             break;
 
         default:
             printf("조회를 선택하셨군요.\n");
         }
     } while (a > 5);
-    printf("%d를 선택하셨군요", a);
 }
