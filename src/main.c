@@ -1,38 +1,25 @@
 #include <avr/interrupt.h>
 #include <avr/io.h>
+#include <util/delay.h>
 
-volatile uint8_t txFlag = 0;
-volatile char txData = 0;
-
-uint8_t getch(void)
+int main(void)
 {
-    uint8_t data;
-    while ((UCSR0A & 0x80) == 0) // 문자 버퍼에 있으면 루프 탈출
-        ;
-    data = UDR0;
-    UCSR0A |= 0x80;
-    return data;
-}
+    DDRC = 0x00;
+    DDRB |= _BV(PB4);
 
-int main()
-{
-    uint8_t numbers[] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x27, 0x7F, 0x67};
-    uint8_t rxData;
-    DDRA = 0xFF;
+    TCCR0 = _BV(WGM00) | _BV(WGM01) | _BV(COM01) | _BV(CS01); // clock select 1024 prescale
 
-    UCSR0A = 0x00;
-    UCSR0B = 0x18; // 0b00011000 Rx, Tx enable
-    UCSR0C = 0x16; // 0b00010110  비동기, no Parity, 1 stop bit
-
-    UBRR0H = 0x00;
-    UBRR0L = 0x07; // 115200 bps
+    uint8_t brightness = 0;
+    int8_t delta = 1;
 
     while (1)
     {
-        rxData = getch();
-        if ((rxData >= 0x30) && (rxData <= 0x39))
+        OCR0 = brightness; // 0 ~ 255
+        _delay_ms(10);
+        brightness += delta;
+        if (brightness == 0 || brightness == 255)
         {
-            PORTA = numbers[rxData - 0x30];
+            delta = -delta;
         }
     }
     return 0;

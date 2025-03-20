@@ -9,6 +9,7 @@
             "name": "PlatformIO",
             "includePath": [
                 "/home/ljy/Desktop/kubig2025/src",
+                "/home/ljy/Desktop/kubig2025/lib/uart0",
                 "/home/ljy/Desktop/kubig2025/lib/lcd",
                 ""
             ],
@@ -16,6 +17,7 @@
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
                     "/home/ljy/Desktop/kubig2025/src",
+                    "/home/ljy/Desktop/kubig2025/lib/uart0",
                     "/home/ljy/Desktop/kubig2025/lib/lcd",
                     ""
                 ]
