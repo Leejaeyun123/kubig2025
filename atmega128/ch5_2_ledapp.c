@@ -1,7 +1,7 @@
 
+#include <avr/interrupt.h>
 #include <avr/io.h>
 #include <util/delay.h>
-#include <avr/interrupt.h>
 
 volatile uint8_t shiftFlag = 1; // 인터럽트에서 쓸 변수
 
@@ -11,10 +11,10 @@ int main()
 
     DDRC = 0x0F; // 하위 비트 4개 출력
 
-    EIMSK = 0xA0; // 0b10100000 INT5, INT7
+    EIMSK = 0xA0; // 0b10100000  INT5, INT7
     EICRB = 0xC8; // 0b11001000인터럽트 5는 하강, 인터럽트7은 상승.
     // EICRB = _BV(ISC71) | _BV(ISC70) | _BV(ISC51);
-    EIFR = 0xA0; // 플래그 클리dj.
+    EIFR = 0xA0; // 플래그 클리어.
     sei();
 
     while (1)

@@ -9,16 +9,18 @@
             "name": "PlatformIO",
             "includePath": [
                 "/home/ljy/Desktop/kubig2025/src",
-                "/home/ljy/Desktop/kubig2025/lib/uart0",
+                "/home/ljy/Desktop/kubig2025/lib/avr-uart",
                 "/home/ljy/Desktop/kubig2025/lib/lcd",
+                "/home/ljy/Desktop/kubig2025/lib/uart0",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
                     "/home/ljy/Desktop/kubig2025/src",
-                    "/home/ljy/Desktop/kubig2025/lib/uart0",
+                    "/home/ljy/Desktop/kubig2025/lib/avr-uart",
                     "/home/ljy/Desktop/kubig2025/lib/lcd",
+                    "/home/ljy/Desktop/kubig2025/lib/uart0",
                     ""
                 ]
             },
