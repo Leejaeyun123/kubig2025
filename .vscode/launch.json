@@ -12,9 +12,9 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "/home/ljy/Desktop/kubig2025/.pio/build/ATmega128/firmware.elf",
+            "executable": "/home/aa/kubig2025/.pio/build/ATmega128/firmware.elf",
             "projectEnvName": "ATmega128",
-            "toolchainBinDir": "/home/ljy/.platformio/packages/toolchain-atmelavr/bin",
+            "toolchainBinDir": "/home/aa/.platformio/packages/toolchain-atmelavr/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "preLaunchTask": {
                 "type": "PlatformIO",
@@ -25,18 +25,18 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/home/ljy/Desktop/kubig2025/.pio/build/ATmega128/firmware.elf",
+            "executable": "/home/aa/kubig2025/.pio/build/ATmega128/firmware.elf",
             "projectEnvName": "ATmega128",
-            "toolchainBinDir": "/home/ljy/.platformio/packages/toolchain-atmelavr/bin",
+            "toolchainBinDir": "/home/aa/.platformio/packages/toolchain-atmelavr/bin",
             "internalConsoleOptions": "openOnSessionStart"
         },
         {
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
-            "executable": "/home/ljy/Desktop/kubig2025/.pio/build/ATmega128/firmware.elf",
+            "executable": "/home/aa/kubig2025/.pio/build/ATmega128/firmware.elf",
             "projectEnvName": "ATmega128",
-            "toolchainBinDir": "/home/ljy/.platformio/packages/toolchain-atmelavr/bin",
+            "toolchainBinDir": "/home/aa/.platformio/packages/toolchain-atmelavr/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "loadMode": "manual"
         }
