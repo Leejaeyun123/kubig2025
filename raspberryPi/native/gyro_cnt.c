@@ -5,8 +5,6 @@
 #include <wiringPiI2C.h>
 
 #define GYRO_ADDR 0x68
-#define LED_PIN 0
-#define BUZZER_PIN 1
 
 // 자이로 센서 레지스트리 MPU6050
 #define MPU6050_PWR_MGMT_1 0x6B
@@ -17,10 +15,6 @@
 
 int main(void)
 {
-    wiringPiSetup();
-
-    pinMode(LED_PIN, OUTPUT);
-    pinMode(BUZZER_PIN, OUTPUT);
     // MPU 6050 I2C file descriptor
     int gyro_fd = wiringPiI2CSetup(GYRO_ADDR);
     delay(100);
@@ -53,11 +47,11 @@ int main(void)
     }
     accel_x_offset /= 100;
     accel_y_offset /= 100;
-    accel_z_offset /= 100 - 16384;
+    accel_z_offset /= 100;
     gyro_x_offset /= 100;
     gyro_y_offset /= 100;
     gyro_z_offset /= 100;
-    
+    accel_z_offset -= 16384.0;
 
     while (1)
     {
@@ -68,31 +62,18 @@ int main(void)
         int16_t gy = (wiringPiI2CReadReg8(gyro_fd, GYRO_XOUT_H + 2) << 8) | wiringPiI2CReadReg8(gyro_fd, GYRO_XOUT_H + 3);
         int16_t gz = (wiringPiI2CReadReg8(gyro_fd, GYRO_XOUT_H + 4) << 8) | wiringPiI2CReadReg8(gyro_fd, GYRO_XOUT_H + 5);
 
-        // printf("ax : %f\n", ((float)ax - accel_x_offset) / 16384.0);
-        // printf("ay : %f\n", ((float)ay - accel_y_offset) / 16384.0);
-        // printf("az : %f\n", ((float)az - accel_z_offset) / 16384.0);
-        // printf("gx : %f\n", ((float)gx - gyro_x_offset) / 131.0);
-        // printf("gy : %f\n", ((float)gy - gyro_y_offset) / 131.0);
-        // printf("gz : %f\n", ((float)gz - gyro_z_offset) / 131.0);
-         printf("ax : %f\n", (float)ax / 16384.0);
-         printf("ay : %f\n", (float)ay / 16384.0);
-         printf("az : %f\n", (float)az / 16384.0);
-         printf("gx : %f\n", (float)gx / 131.0);
-         printf("gy : %f\n", (float)gy / 131.0);
-         printf("gz : %f\n", (float)gz / 131.0);
-        
-         if (ax > 1000) // 예: x축 가속도가 특정 값 이상일 때
-        {
-            digitalWrite(LED_PIN, HIGH); // LED 켜기
-            digitalWrite(BUZZER_PIN, HIGH); // 부저 켜기
-            delay(500); // 500ms 동안 소리 내기
-            digitalWrite(BUZZER_PIN, LOW); // 부저 끄기
-        }
-        else
-        {
-            digitalWrite(LED_PIN, LOW); // LED 끄기
-        }
-
+        printf("ax : %f\n", ((float)ax - accel_x_offset) / 16384.0);
+        printf("ay : %f\n", ((float)ay - accel_y_offset) / 16384.0);
+        printf("az : %f\n", ((float)az - accel_z_offset) / 16384.0);
+        printf("gx : %f\n", ((float)gx - gyro_x_offset) / 131.0);
+        printf("gy : %f\n", ((float)gy - gyro_y_offset) / 131.0);
+        printf("gz : %f\n", ((float)gz - gyro_z_offset) / 131.0);
+        // printf("ax : %f\n", (float)ax / 16384.0);
+        // printf("ay : %f\n", (float)ay / 16384.0);
+        // printf("az : %f\n", (float)az / 16384.0);
+        // printf("gx : %f\n", (float)gx / 131.0);
+        // printf("gy : %f\n", (float)gy / 131.0);
+        // printf("gz : %f\n", (float)gz / 131.0);
         delay(100);
     }
 
