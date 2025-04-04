@@ -45,7 +45,8 @@
         "module.h": "c",
         "time.h": "c",
         "compare": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "touch_ATQT1070.C": "cpp"
     },
     "ros.distro": "humble",
     "cmake.sourceDirectory": "/home/aa/kuBig2025"
