@@ -325,7 +325,7 @@ int test_microphone(const char *device, const char *output_file)
 
 int main()
 {
-    const char *device = "hw:3,0";
+    const char *device = "hw:2,0";
     const char *output_file = "mic_test.wav";
     const char *alsa_test_file = "/usr/share/sounds/alsa/Front_Center.wav";
 
