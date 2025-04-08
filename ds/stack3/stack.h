@@ -1,13 +1,15 @@
 #ifndef STACK_H
 #define STACK_H
-
-struct stack
+#define STACKSIZE 100
+typedef Stack
 {
-    int array[100];
+    int array[STACKSIZE];
     int tos;
-};
+} Stack;
 
-void push(struct stack *ps, int data);
-int pop(struct stack *ps);
+void initStack(Stack stack *ps);
+
+void push(Stack stack *ps, int data);
+int pop( Stack stack *ps);
 
 #endif
