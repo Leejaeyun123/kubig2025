@@ -1,7 +1,7 @@
 #include "stack.h"
 // #include <stdlib.h>
-#include <stdio.h>
-#include <assert.h>
+#include <cstdio>
+#include <cassert>
 
 void initStack(this, int size)
 {

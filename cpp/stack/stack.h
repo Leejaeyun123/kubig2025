@@ -1,14 +1,14 @@
 #ifndef STACK_H
 #define STACK_H
 
-struct Stack
+class Stack
 {
     private:
 
     int *pArr;
     int size;
     int tos;
-    public;
+    public:
 
     Stack(int size);
     ~Stack();
