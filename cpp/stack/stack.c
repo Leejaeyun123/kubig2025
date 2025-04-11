@@ -5,21 +5,21 @@
 
 void initStack(this, int size)
 {
-    ps->pArr = malloc(sizeof(int) * size);
-    assert(ps->pArr != NULL);
+    this->pArr = malloc(sizeof(int) * size);
+    assert(this->pArr != NULL);
     
-    ps->size = size;
-    ps->tos = 0;
+    this->size = size;
+    this->tos = 0;
 }
 
-void cleanupStack(this->)
+void cleanuthistack(this->)
 {
-    free(ps->pArr);
+    free(this->pArr);
 }
 void push(this, int data)
 {
  
-    assert(ps->tos != ps -> size);
+    assert(this->tos != this -> size);
 
 
     
@@ -34,5 +34,5 @@ int pop(this)
     assert(this -> tos != 0);
     --this->tos;
    
-    return ps->pArr[this->tos];
+    return this->pArr[this->tos];
 }

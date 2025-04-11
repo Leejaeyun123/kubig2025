@@ -10,6 +10,9 @@ int main()
     s1.push(100);
     s1.push(200);
     s1.push(300);
+
+    //s1.tos = 0;
+
     printf("s1 1st pop(): %d\n", s1.pop());
     printf("s1 2nd pop(): %d\n", s1.pop());
     printf("s1 3rd pop(): %d\n", s1.pop());
