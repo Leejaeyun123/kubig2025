@@ -25,7 +25,7 @@ int main()
     std::cout << "s2 1st pop() : " << s2.pop() << std::endl;
     std::cout << "s2 2nd pop() : " << s2.pop() << std::endl;
     std::cout << "s2 3re pop() : " << s2.pop() << std::endl;
-    
+
     // cleanupStack(&s1);
     // cleanupStack(&s2);
     return 0;
