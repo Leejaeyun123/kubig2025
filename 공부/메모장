@@ -1,9 +1,16 @@
-// ++a : 현재 a값에서 1을 추가하여 지금부터 사용  
-// b++ : 현재는 b값으로 하고, 다음부터 1을 추가한 값을 사용
-// return 0; 특별한 반환값이 없으므로 생략 가능
-// 헤더파일은 메뉴판 ex) stdio.h
-// 문자열은 맨마지막에 널값이 포함 ex "hellow"='h', 'e', 'l', 'l', 'o', 'w', '\0' 
-// 어떤 일이 수행되고자 하는 절차
-// &(ampersand) : "해당 주소로 들어가라" ex) int value; , scanf("%d")가 있으면 %d는 int(주소)로 들어간다. 
-// sudo apt install cmake
-// main은 함수이고 예약어, (출력 data)함수명(입력 data) 
+C
+++a : 현재 a값에서 1을 추가하여 지금부터 사용  
+ b++ : 현재는 b값으로 하고, 다음부터 1을 추가한 값을 사용
+return 0; 특별한 반환값이 없으므로 생략 가능
+헤더파일은 메뉴판 ex) stdio.h / 헤더파일에는 함수선언이 있다. ex) stdio.h 파일 안에 printf 함수가 들어 있는 게 아니다.
+문자열은 맨마지막에 널값이 포함 ex "hellow"='h', 'e', 'l', 'l', 'o', 'w', '\0' 
+어떤 일이 수행되고자 하는 절차
+&(ampersand) : "해당 주소로 들어가라" ex) int value; , scanf("%d")가 있으면 %d는 int(주소)로 들어간다. 
+sudo apt install cmake
+main은 함수이고 예약어, (출력 data)함수명(입력 data)
+cc -o testQueue main.o queue.o -l libc.so <- cc -o testQueue main.o queue.o의 원형
+char포인터는 1바이트, int포인터는 4바이트, double포인터는 8바이트
+포인터의 타입은 포인터가 가리키는 대상
+
+C++
+c언어에서는 인자를 안 쓰면 어떤 값이 들어올지 몰라서 void를 쓴다. c++에서는 void를 써도 되고 안 써도 된다.

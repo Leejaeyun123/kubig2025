@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "123": "cpp",
         "*.py": "python",
         "*.repos": "yaml",
         "*.world": "xml",
@@ -47,7 +48,10 @@
         "compare": "c",
         "stdlib.h": "c",
         "touch_ATQT1070.C": "cpp",
-        "stack.h": "c"
+        "stack.h": "c",
+        "deque": "c",
+        "vector": "c",
+        "string_view": "c"
     },
     "ros.distro": "humble",
     "cmake.sourceDirectory": "/home/aa/kuBig2025"

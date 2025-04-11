@@ -1,6 +1,6 @@
 #include "stack.h"
 #include <stdlib.h>
-#include "stack.h"
+#include <stdio.h>
 
 void initStack(Stack *ps)
 {

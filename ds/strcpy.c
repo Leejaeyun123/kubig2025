@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void my_strcpy(char *des, const char *src)
+{
+    while (*des++ = *src++);
+    
+    
+}
+
+
+int main(void)
+{
+    char str[100];
+    char *str2 = "hello, world";
+
+    my_strcpy(str, str2);
+    printf("str : %s\n", str);
+
+    return 0;
+}
