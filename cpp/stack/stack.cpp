@@ -1,40 +1,37 @@
 #include "stack.h"
-// #include <stdlib.h>
-#include <cstdio>
+//#include <cstdlib>
 #include <cassert>
+#include <cstdio>
 
-void initStack(this, int size)
-{
-    this->pArr = malloc(sizeof(int) * size);
-    assert(this->pArr != NULL);
-    
+Stack::Stack(int size){
+    //this->pArr = (int *)malloc(sizeof(int)*size);
+    this->pArr = new int(size);
+    assert(this->pArr );
     this->size = size;
     this->tos = 0;
 }
 
-void cleanuthistack(this->)
-{
-    free(this->pArr);
+Stack::~Stack(){
+    //free(this->pArr);
+    delete[] this->pArr;
 }
-void push(this, int data)
-{
- 
-    assert(this->tos != this -> size);
 
 
-    
-    this->pArr[this->tos] = data; 
+void Stack::push(int data){
+    assert(this->tos != this->size);
+
+    this->pArr[this->tos] = data;
     ++this->tos;
 }
 
-int pop(this)
-{
+int Stack::pop(){
+    //empty 예외처리
+    // if (this->tos <= 0){
+    //     fprintf(stderr, "stack is empty.\n");
+    //     exit(2);
+    // }
+    assert(this->tos != 0);
 
-  
-    assert(this -> tos != 0);
     --this->tos;
-   
     return this->pArr[this->tos];
 }
-
-// 111
