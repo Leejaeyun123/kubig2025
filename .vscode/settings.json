@@ -51,7 +51,8 @@
         "stack.h": "c",
         "deque": "c",
         "vector": "c",
-        "string_view": "c"
+        "string_view": "c",
+        "iosfwd": "cpp"
     },
     "ros.distro": "humble",
     "cmake.sourceDirectory": "/home/aa/kuBig2025"
