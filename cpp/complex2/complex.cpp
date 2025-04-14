@@ -23,10 +23,12 @@ Complex::~Complex()
 
 }
 
-void Complex::operator=(Complex c)
+
+
+void Complex::operator=(const Complex& rc)
 {
-	this->re = c.re;
-	this->im = c.im;
+	this->re = rc.re;
+	this->im = rc.im;
 }
 double Complex::real()
 {
