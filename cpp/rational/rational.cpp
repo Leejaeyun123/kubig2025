@@ -1,10 +1,9 @@
-#include <cassert>
 #include "rational.h"
+#include <cassert>
 
-Rational::Rational(int num, int den)
+Rational::Rational(int num, int den) 
 {
-    assert(den != 0);
-    
+    assert(den !=0);
     this->num = num;
     this->den = den;
 }
@@ -15,23 +14,35 @@ Rational::Rational(int num)
     this->den = 1;
 }
 
+Rational::Rational()
+{
+    this->num = 0;
+    this->den = 1;
+}
+
 Rational::~Rational()
 {
-    
-    
+
 }
-Rational::den()
+
+int Rational::getNum()
 {
-    
-    
+    return this->num;
 }
-void Rational::getNum()
+
+int Rational::getDen()
+{
+    return this->den;
+}
+
+void Rational::SetNum(int num)
 {
     this->num = num;
-    
 }
-void Rational::getDen()
+
+void Rational::SetDen(int den)
 {
-    assert(this->den );
-    
+    assert(this->den);
+
+    this->den = den;
 }
