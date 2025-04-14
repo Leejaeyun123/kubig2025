@@ -12,7 +12,8 @@ public:
 //void operator=(const Complex *pc);	
 void operator=(const Complex& rc);
 
-int operator==(const Complex& rc);
+//int operator==(const Complex& rc);
+bool operator==(const Complex& rc);
 
 double real();
 double imag();
