@@ -8,9 +8,11 @@ public:
 	Complex(double re, double im);
 	~Complex();
 
-// void operator=(Complex c);
+//void operator=(Complex c);
 //void operator=(const Complex *pc);	
 void operator=(const Complex& rc);
+
+int operator==(const Complex& rc);
 
 double real();
 double imag();

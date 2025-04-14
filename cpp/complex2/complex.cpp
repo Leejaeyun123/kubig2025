@@ -42,3 +42,13 @@ void Complex::real(double re)
 {
 	this->re;
 }
+int Complex::operator==(const Complex& rc)
+{
+	if (this->re == rc.re && this->im == rc.im)
+	{
+		return 1;
+	} else{
+		return 0;
+	}
+	
+}
