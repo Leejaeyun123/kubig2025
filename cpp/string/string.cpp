@@ -2,6 +2,11 @@
 #include <cstring>
 #include <cassert>
 
+std::ostream& operator<<(std::ostream& out, const String& rhs)
+{
+    return out << rhs.str;
+}
+
 String::String()
 {
     this->str = new char[1];
@@ -46,6 +51,15 @@ String& String::operator=(const String& rhs)
 bool String::operator==(const String& rhs)
 {
     return strcmp(this->str, rhs.str) == 0;
+}
+const String String::operator+(const String& rhs)
+{
+    char buf[this->len + rhs.len + 1];
+    strcpy(buf, this->str);
+    strcat(buf, rhs.str);
+    String result(buf);
+    
+    return result;
 }
 const char *String::c_str()
 {
