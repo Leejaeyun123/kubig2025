@@ -19,7 +19,8 @@ public:
     bool operator==(const Complex& rhs);
 
     const Complex operator+(const Complex& rhs);
-    // -, *, /
+    const Complex operator-(const Complex& rhs);
+    //*,/
 
     // get, set ??? X
 };

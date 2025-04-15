@@ -9,7 +9,6 @@ int main()
     Complex c4 = c3;        // Complex c4(c3);
 
     c1 = c3;                // c1.operator=(c3) or operator=(c1, c3)
-    c1 = c2 = c3;           // daisy-chain.
     
     if (c1 == c3)
     {
@@ -19,13 +18,13 @@ int main()
     }
 
     c4 = c2 + c3;           // c2.operator+(c3) or operator+(c2, c3)
-    
+    c4 = c2 - c3;
     // std::cout << c1;        // (3.0, 4.0i) std::cout.operator<<(c1) or operator<<(std::cout, c1)
     std::cout << c1 << std::endl;
     std::cout << c2 << std::endl;
     std::cout << c3 << std::endl;
     std::cout << c4 << std::endl;
-    
+
 
     return 0;
 }

@@ -39,3 +39,9 @@ const Complex Complex::operator+(const Complex& rhs)
 
     return result;
 }
+const Complex Complex::operator-(const Complex& rhs)
+{
+    Complex result(this->re - rhs.re, this->im - rhs.im);
+
+    return result;
+}
