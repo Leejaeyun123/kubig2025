@@ -18,6 +18,8 @@ int main()
         std::cout << "c1 and c3 are not equal" << std::endl;
     }
     
+    std::cout << c1;        // (3.0, 4.0i) std::cout.operator<<(c1) or operator<<(std::cout, c1)
+    std::cout << std::endl;
 
     return 0;
 }

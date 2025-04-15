@@ -1,12 +1,18 @@
 #include "complex.h"
 
+std::ostream& operator<<(std::ostream& out, const Complex& rhs)
+{
+    out << "(" << rhs.re << ", " << rhs.im << "i)";
+    return out;
+}
+
 Complex::Complex(double re, double im)
 {
     this->re = re;
     this->im = im;
 }
 
-Complex::Complex(const Complex &rhs)
+Complex::Complex(const Complex &rhs)        // right hand side
 {
     this->re = rhs.re;
     this->im = rhs.im;
