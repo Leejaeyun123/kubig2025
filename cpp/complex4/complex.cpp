@@ -23,6 +23,14 @@ bool Complex::operator==(const Complex& rhs)
 {
     return re_ == rhs.re_ && im_ == rhs.im_;
 }
+bool Complex::operator!=(const Complex& rhs)
+{
+ 
+    //return !(*this == rhs);
+    return !this->operator==(rhs);
+
+    //return re_ != rhs.re || im_ != rhs.im_;
+}
 const Complex Complex::operator+(const Complex& rhs)
 {
     Complex result(re_ + rhs.re_, im_ + rhs.im_);

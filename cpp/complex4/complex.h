@@ -20,7 +20,8 @@ public:
     // %=, &=, |=,  ^= X
 
     bool operator==(const Complex& rhs);
-    // !=, >, <, >=, <=
+    bool operator!=(const Complex& rhs);
+    // >, <, >=, <=
 
     const Complex operator+(const Complex& rhs);
     // -, *, /
