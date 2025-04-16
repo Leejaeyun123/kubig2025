@@ -43,3 +43,17 @@ const Complex Complex::operator-(const Complex& rhs)
 
     return result;
 }
+
+Complex& Complex::operator++()
+{
+    re_ += 1.0;
+
+    return *this;
+}
+Complex Complex::operator++(int )
+{
+    Complex tmp = *this;
+    re_ += 1.0;
+
+    return tmp;
+}
