@@ -15,10 +15,22 @@ public:
     //~Complex() {}
 
     //Complex& operator=(const Complex& ) { /* memberwise copy */ return *this; }
+    Complex& operator+=(const Complex& rhs);
+    // +=, -=, *=, /= 0
+    // %=, &=, |=,  ^= X
 
     bool operator==(const Complex& rhs);
+    // !=, >, <, >=, <=
 
     const Complex operator+(const Complex& rhs);
+    // -, *, /
+    // % X
+
+    // ++, -- X
+
+    // &, |, -, ^ X
+
+    // type casting X
 
     //Complex *operator&() { return this; }
     //const Complex *operator&() const { return this; }
