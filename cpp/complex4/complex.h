@@ -28,6 +28,8 @@ public:
     // *, /
     // % X
 
+    operator++();           // prefix
+    operator++(int );       // postfix
     // ++, -- X
 
     // &, |, -, ^ X
