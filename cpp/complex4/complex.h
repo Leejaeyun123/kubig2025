@@ -19,17 +19,17 @@ public:
     // +=, -=, *=, /= 0
     // %=, &=, |=,  ^= X
 
-    bool operator==(const Complex& rhs);
-    bool operator!=(const Complex& rhs);
+    bool operator==(const Complex& rhs) const;
+    bool operator!=(const Complex& rhs) const;
     // >, <, >=, <=
 
-    const Complex operator+(const Complex& rhs);
-    const Complex operator-(const Complex& rhs);
+    const Complex operator+(const Complex& rhs) const;
+    const Complex operator-(const Complex& rhs) const;
     // *, /
     // % X
 
     Complex& operator++();           // prefix
-    Complex operator++(int );       // postfix
+    Complex operator++(int );        // postfix
     // ++, -- X
 
     // &, |, -, ^ X
@@ -38,6 +38,12 @@ public:
 
     //Complex *operator&() { return this; }
     //const Complex *operator&() const { return this; }
+
+    double real() const;
+    double imag() const;
+
+    void real(double re);
+    void imag(double im);
 };
 
 #endif
