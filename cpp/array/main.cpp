@@ -25,8 +25,6 @@ int main()
     {
         std::cout << arr4[i] << std::endl;      //arr4.operator[](i)
     }
-    
-    
-
+    std::cout << "ARRAY_SIZE : " << Array::getDefaultArraySize() << std::endl;
     return 0;
 }

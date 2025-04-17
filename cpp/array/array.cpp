@@ -1,10 +1,18 @@
 #include "array.h"
 #include <cassert>
 
+//const int ARRAY_SIZE = 100;
+const int Array::ARRAY_SIZE = 100;
+
+int Array::getDefaultArraySize()
+{
+    return Array::ARRAY_SIZE;
+}
+
 Array::Array(int size)
 : pArr_(new int[size]), size_(size)
 {
-    assert(pArr_);
+    assert(pArr_ );
 
 }
 

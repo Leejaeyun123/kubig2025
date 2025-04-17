@@ -1,13 +1,17 @@
 #ifndef ARRAY_H
 #define ARRAY_H
-#define ARRAY_SIZE 100
+
 
 class Array {
 private:
+    static const int ARRAY_SIZE;
+    
     int *pArr_;
     int size_;
-
+    
 public:
+    static int getDefaultArraySize();
+
     //Array();
     explicit Array(int size = 100);
     Array(const int *pArr, int size);
