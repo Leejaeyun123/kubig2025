@@ -1,63 +1,51 @@
+//testArray.c
 #include <stdio.h>
-
-int main(void)
-{
+ 
+int main(void){
     int nums[] = {1, 2, 3, 4, 5};
     int *p;
 
-    p = nums;   // p = &num[0];
+    p = nums; // p = &nums[0] 배열을 상수처럼쓰면 첫번째 주소의 값
 
     printf("*p : %d\n", *p);
-    printf("*(p + 1) : %d\n", *(p + 1));
+    printf("*(p + 1): %d\n", *(p + 1));
 
     int nums1[] = {1, 2, 3, 4, 5};
     int nums2[5];
 
-    //nums2 = nums1;
-    for (int i = 0; i < 5; ++i)
-    {
+    //nums2 = nums1; //배열 배열 치환 안됨
+
+    for (int i = 0; i < 5; ++i){
         nums2[i] = nums1[i];
     }
-
+    
     printf("nums2 : ");
-    for (int i = 0; i < 5; ++i)
-    {
-        printf("%d ", nums2[i]);
+    for (int i = 0; i < 5; ++i){
+        printf("%d", nums2[i]);
     }
     printf("\n");
 
     int nums3[] = {1, 2, 3, 4, 5};
     int nums4[] = {1, 2, 3, 4, 5};
-
     /*
-    if (nums3 == nums4)
-    {
+    if (nums3 == nums4){ //배열을 상수처럼 사용시, 배열의 첫번째 값의 주소값을 사용함
         printf("nums3 and nums4 are equal\n");
-    } else{
-        printf("nums3 and nums4 are not equal\n");
+    }else{
+        printf("nums3 and nums4 are not equal\n"); // 이건 조건이 주소의 동일 여부를 확인하기에 무조건 false가 나옴
     }
     */
     int i;
-    for ( i = 0; i < 5; ++i)
-    {
-        if (nums3[i] != nums4[i])
-        {
+    for (i = 0; i < 5; ++i){
+        if (nums3[i] != nums4[i]){
             break;
         }
-        
     }
-    if (i == 5)
-    {
+    if (i == 5){
         printf("nums3 and nums4 are equal\n");
-    } else{
+    }else{
         printf("nums3 and nums4 are not equal\n");
     }
-    
-    
-    
-
-        
-    
 
     return 0;
 }
+
