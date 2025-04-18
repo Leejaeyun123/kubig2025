@@ -5,10 +5,10 @@ template <typename T>
 class Array {
 private:
     T *pArr_;
-
+        
 protected:
     static const int ARRAY_SIZE;
-
+    
     int size_;
 
 public:
@@ -16,7 +16,7 @@ public:
 
     //Array();
     explicit Array(int size = 100);
-    Array(const int *pArr, int size);
+    Array(const T *pArr, int size);
     Array(const Array<T>& rhs);
     virtual~Array();
 
@@ -32,7 +32,6 @@ public:
 
 #include <cassert>
 
-//const int ARRAY_SIZE = 100;
 template <typename T>
 const int Array<T>::ARRAY_SIZE = 100;
 
@@ -49,6 +48,7 @@ Array<T>::Array(int size)
     assert(pArr_ );
 
 }
+
 template <typename T>
 Array<T>::Array(const T *pArr, int size)
 : pArr_(new T[size]), size_(size)
@@ -60,6 +60,7 @@ Array<T>::Array(const T *pArr, int size)
     }
     
 }
+
 template <typename T>
 Array<T>::Array(const Array<T>& rhs)
 : pArr_(new T[rhs.size_]), size_(rhs.size_)
@@ -71,11 +72,13 @@ Array<T>::Array(const Array<T>& rhs)
     }
     
 }
+
 template <typename T>
 Array<T>::~Array()
 {
     delete [] pArr_;
 }
+
 template <typename T>
 Array<T>& Array<T>::operator=(const Array<T>& rhs)
 {
@@ -97,6 +100,7 @@ Array<T>& Array<T>::operator=(const Array<T>& rhs)
     }
     return *this;
 }
+
 template <typename T>
 bool Array<T>::operator==(const Array<T>& rhs) const{
     if (size_ != rhs.size_)
@@ -114,19 +118,23 @@ bool Array<T>::operator==(const Array<T>& rhs) const{
     }
     return(i == rhs.size_);    
 }
+
 template <typename T>
 T& Array<T>::operator[](int index)
 {
     return pArr_[index];
 }
+
 template <typename T>
 const T& Array<T>::operator[](int index) const
 {
     return pArr_[index];
 }
+
 template <typename T>
 int Array<T>::size() const
 {
     return size_;
 }
+
 #endif
