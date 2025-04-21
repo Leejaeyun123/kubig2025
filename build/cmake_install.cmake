@@ -1,4 +1,4 @@
-# Install script for directory: /home/ljy/Desktop/kubig2025
+# Install script for directory: /home/ljy/kubig2025
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,11 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ljy/Desktop/kubig2025/build/sqlQuery/cmake_install.cmake")
-  include("/home/ljy/Desktop/kubig2025/build/bowling/cmake_install.cmake")
-  include("/home/ljy/Desktop/kubig2025/build/c_example/part1/cmake_install.cmake")
-  include("/home/ljy/Desktop/kubig2025/build/c_example/part2/cmake_install.cmake")
-  include("/home/ljy/Desktop/kubig2025/build/c_example/part3/cmake_install.cmake")
+  include("/home/ljy/kubig2025/build/c_example/part1/cmake_install.cmake")
+  include("/home/ljy/kubig2025/build/c_example/part2/cmake_install.cmake")
+  include("/home/ljy/kubig2025/build/c_example/part3/cmake_install.cmake")
+  include("/home/ljy/kubig2025/build/stl/cmake_install.cmake")
 
 endif()
 
@@ -60,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ljy/Desktop/kubig2025/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ljy/kubig2025/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

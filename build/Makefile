@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljy/Desktop/kubig2025
+CMAKE_SOURCE_DIR = /home/ljy/kubig2025
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljy/Desktop/kubig2025/build
+CMAKE_BINARY_DIR = /home/ljy/kubig2025/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljy/Desktop/kubig2025/build/CMakeFiles /home/ljy/Desktop/kubig2025/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljy/kubig2025/build/CMakeFiles /home/ljy/kubig2025/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljy/Desktop/kubig2025/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljy/kubig2025/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,32 +115,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named bookSql
-
-# Build rule for target.
-bookSql: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bookSql
-.PHONY : bookSql
-
-# fast build rule for target.
-bookSql/fast:
-	$(MAKE) $(MAKESILENT) -f sqlQuery/CMakeFiles/bookSql.dir/build.make sqlQuery/CMakeFiles/bookSql.dir/build
-.PHONY : bookSql/fast
-
-#=============================================================================
-# Target rules for targets named bowling
-
-# Build rule for target.
-bowling: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bowling
-.PHONY : bowling
-
-# fast build rule for target.
-bowling/fast:
-	$(MAKE) $(MAKESILENT) -f bowling/CMakeFiles/bowling.dir/build.make bowling/CMakeFiles/bowling.dir/build
-.PHONY : bowling/fast
 
 #=============================================================================
 # Target rules for targets named arithmetics
@@ -1156,6 +1130,58 @@ myString/fast:
 	$(MAKE) $(MAKESILENT) -f c_example/part3/string/CMakeFiles/myString.dir/build.make c_example/part3/string/CMakeFiles/myString.dir/build
 .PHONY : myString/fast
 
+#=============================================================================
+# Target rules for targets named ex1_vector
+
+# Build rule for target.
+ex1_vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1_vector
+.PHONY : ex1_vector
+
+# fast build rule for target.
+ex1_vector/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex1_vector.dir/build.make stl/CMakeFiles/ex1_vector.dir/build
+.PHONY : ex1_vector/fast
+
+#=============================================================================
+# Target rules for targets named ex2_string_vector
+
+# Build rule for target.
+ex2_string_vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex2_string_vector
+.PHONY : ex2_string_vector
+
+# fast build rule for target.
+ex2_string_vector/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex2_string_vector.dir/build.make stl/CMakeFiles/ex2_string_vector.dir/build
+.PHONY : ex2_string_vector/fast
+
+#=============================================================================
+# Target rules for targets named ex3_longest
+
+# Build rule for target.
+ex3_longest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_longest
+.PHONY : ex3_longest
+
+# fast build rule for target.
+ex3_longest/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex3_longest.dir/build.make stl/CMakeFiles/ex3_longest.dir/build
+.PHONY : ex3_longest/fast
+
+#=============================================================================
+# Target rules for targets named ex4_string
+
+# Build rule for target.
+ex4_string: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_string
+.PHONY : ex4_string
+
+# fast build rule for target.
+ex4_string/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex4_string.dir/build.make stl/CMakeFiles/ex4_string.dir/build
+.PHONY : ex4_string/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1173,8 +1199,6 @@ help:
 	@echo "... average2022Temp"
 	@echo "... baseball"
 	@echo "... bigLetter"
-	@echo "... bookSql"
-	@echo "... bowling"
 	@echo "... bubble"
 	@echo "... carSerial"
 	@echo "... celsius2fahr"
@@ -1189,6 +1213,10 @@ help:
 	@echo "... dynamicAllocation"
 	@echo "... endian"
 	@echo "... enumExample"
+	@echo "... ex1_vector"
+	@echo "... ex2_string_vector"
+	@echo "... ex3_longest"
+	@echo "... ex4_string"
 	@echo "... fahr2celsius"
 	@echo "... fflushEx"
 	@echo "... fileDescriptor"

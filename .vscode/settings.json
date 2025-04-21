@@ -83,5 +83,5 @@
         "cstring": "cpp"
     },
     "ros.distro": "humble",
-    "cmake.sourceDirectory": "/home/aa/kuBig2025"
+    "cmake.sourceDirectory": "/home/ljy/kubig2025"
 }
