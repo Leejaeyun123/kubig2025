@@ -473,5 +473,25 @@
   "directory": "/home/ljy/kubig2025/build/stl",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex9_lambda.dir/ex9_lambda.cpp.o -c /home/ljy/kubig2025/stl/ex9_lambda.cpp",
   "file": "/home/ljy/kubig2025/stl/ex9_lambda.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/data_process.dir/data_process/data_process.cpp.o -c /home/ljy/kubig2025/stl/data_process/data_process.cpp",
+  "file": "/home/ljy/kubig2025/stl/data_process/data_process.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/data_process.dir/data_process/main.cpp.o -c /home/ljy/kubig2025/stl/data_process/main.cpp",
+  "file": "/home/ljy/kubig2025/stl/data_process/main.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/range_example.dir/range_example/main.cpp.o -c /home/ljy/kubig2025/stl/range_example/main.cpp",
+  "file": "/home/ljy/kubig2025/stl/range_example/main.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/range_example.dir/range_example/processor.cpp.o -c /home/ljy/kubig2025/stl/range_example/processor.cpp",
+  "file": "/home/ljy/kubig2025/stl/range_example/processor.cpp"
 }
 ]

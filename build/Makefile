@@ -1299,6 +1299,32 @@ ex9_lambda/fast:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/build
 .PHONY : ex9_lambda/fast
 
+#=============================================================================
+# Target rules for targets named data_process
+
+# Build rule for target.
+data_process: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_process
+.PHONY : data_process
+
+# fast build rule for target.
+data_process/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/data_process.dir/build.make stl/CMakeFiles/data_process.dir/build
+.PHONY : data_process/fast
+
+#=============================================================================
+# Target rules for targets named range_example
+
+# Build rule for target.
+range_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 range_example
+.PHONY : range_example
+
+# fast build rule for target.
+range_example/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/build
+.PHONY : range_example/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1324,6 +1350,7 @@ help:
 	@echo "... charPointerOperation"
 	@echo "... compare"
 	@echo "... compare2"
+	@echo "... data_process"
 	@echo "... date"
 	@echo "... ddd"
 	@echo "... dice"
@@ -1380,6 +1407,7 @@ help:
 	@echo "... putSeries"
 	@echo "... qsort"
 	@echo "... randomTwolnt"
+	@echo "... range_example"
 	@echo "... returnValue"
 	@echo "... scoreGrade"
 	@echo "... selection"
