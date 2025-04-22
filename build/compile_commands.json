@@ -411,6 +411,21 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex10_forClass.dir/ex10_forClass.cpp.o -c /home/ljy/kubig2025/stl/ex10_forClass.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex10_forClass.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex11_nullptr.dir/ex11_nullptr.cpp.o -c /home/ljy/kubig2025/stl/ex11_nullptr.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex11_nullptr.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex12_constexprestion.dir/ex12_constexprestion.cpp.o -c /home/ljy/kubig2025/stl/ex12_constexprestion.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex12_constexprestion.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex1_vector.dir/ex1_vector.cpp.o -c /home/ljy/kubig2025/stl/ex1_vector.cpp",
   "file": "/home/ljy/kubig2025/stl/ex1_vector.cpp"
 },
