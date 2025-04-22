@@ -1170,6 +1170,19 @@ ex12_constexprestion/fast:
 .PHONY : ex12_constexprestion/fast
 
 #=============================================================================
+# Target rules for targets named ex13_array
+
+# Build rule for target.
+ex13_array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex13_array
+.PHONY : ex13_array
+
+# fast build rule for target.
+ex13_array/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex13_array.dir/build.make stl/CMakeFiles/ex13_array.dir/build
+.PHONY : ex13_array/fast
+
+#=============================================================================
 # Target rules for targets named ex1_vector
 
 # Build rule for target.
@@ -1360,6 +1373,7 @@ help:
 	@echo "... ex10_forClass"
 	@echo "... ex11_nullptr"
 	@echo "... ex12_constexprestion"
+	@echo "... ex13_array"
 	@echo "... ex1_vector"
 	@echo "... ex2_string_vector"
 	@echo "... ex3_longest"

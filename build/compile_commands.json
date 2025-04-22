@@ -426,6 +426,11 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex13_array.dir/ex13_array.cpp.o -c /home/ljy/kubig2025/stl/ex13_array.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex13_array.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex1_vector.dir/ex1_vector.cpp.o -c /home/ljy/kubig2025/stl/ex1_vector.cpp",
   "file": "/home/ljy/kubig2025/stl/ex1_vector.cpp"
 },
