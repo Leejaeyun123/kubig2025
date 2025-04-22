@@ -1221,6 +1221,45 @@ ex7_map/fast:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/build
 .PHONY : ex7_map/fast
 
+#=============================================================================
+# Target rules for targets named ex8_vector_list1
+
+# Build rule for target.
+ex8_vector_list1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_vector_list1
+.PHONY : ex8_vector_list1
+
+# fast build rule for target.
+ex8_vector_list1/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list1.dir/build.make stl/CMakeFiles/ex8_vector_list1.dir/build
+.PHONY : ex8_vector_list1/fast
+
+#=============================================================================
+# Target rules for targets named ex8_vector_list2
+
+# Build rule for target.
+ex8_vector_list2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_vector_list2
+.PHONY : ex8_vector_list2
+
+# fast build rule for target.
+ex8_vector_list2/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex8_vector_list2.dir/build.make stl/CMakeFiles/ex8_vector_list2.dir/build
+.PHONY : ex8_vector_list2/fast
+
+#=============================================================================
+# Target rules for targets named ex9_lambda
+
+# Build rule for target.
+ex9_lambda: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex9_lambda
+.PHONY : ex9_lambda
+
+# fast build rule for target.
+ex9_lambda/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex9_lambda.dir/build.make stl/CMakeFiles/ex9_lambda.dir/build
+.PHONY : ex9_lambda/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1259,6 +1298,9 @@ help:
 	@echo "... ex5_string_find"
 	@echo "... ex6_iterator"
 	@echo "... ex7_map"
+	@echo "... ex8_vector_list1"
+	@echo "... ex8_vector_list2"
+	@echo "... ex9_lambda"
 	@echo "... fahr2celsius"
 	@echo "... fflushEx"
 	@echo "... fileDescriptor"

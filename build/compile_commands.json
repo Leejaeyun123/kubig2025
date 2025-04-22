@@ -443,5 +443,20 @@
   "directory": "/home/ljy/kubig2025/build/stl",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex7_map.dir/ex7_map.cpp.o -c /home/ljy/kubig2025/stl/ex7_map.cpp",
   "file": "/home/ljy/kubig2025/stl/ex7_map.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex8_vector_list1.dir/ex8_vector_list1.cpp.o -c /home/ljy/kubig2025/stl/ex8_vector_list1.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex8_vector_list1.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex8_vector_list2.dir/ex8_vector_list2.cpp.o -c /home/ljy/kubig2025/stl/ex8_vector_list2.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex8_vector_list2.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex9_lambda.dir/ex9_lambda.cpp.o -c /home/ljy/kubig2025/stl/ex9_lambda.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex9_lambda.cpp"
 }
 ]
