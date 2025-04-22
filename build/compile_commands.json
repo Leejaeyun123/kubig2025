@@ -428,5 +428,20 @@
   "directory": "/home/ljy/kubig2025/build/stl",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex4_string.dir/ex4_string.cpp.o -c /home/ljy/kubig2025/stl/ex4_string.cpp",
   "file": "/home/ljy/kubig2025/stl/ex4_string.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex5_string_find.dir/ex5_string_find.cpp.o -c /home/ljy/kubig2025/stl/ex5_string_find.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex5_string_find.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex6_iterator.dir/ex6_iterator.cpp.o -c /home/ljy/kubig2025/stl/ex6_iterator.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex6_iterator.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex7_map.dir/ex7_map.cpp.o -c /home/ljy/kubig2025/stl/ex7_map.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex7_map.cpp"
 }
 ]

@@ -1182,6 +1182,45 @@ ex4_string/fast:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex4_string.dir/build.make stl/CMakeFiles/ex4_string.dir/build
 .PHONY : ex4_string/fast
 
+#=============================================================================
+# Target rules for targets named ex5_string_find
+
+# Build rule for target.
+ex5_string_find: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex5_string_find
+.PHONY : ex5_string_find
+
+# fast build rule for target.
+ex5_string_find/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex5_string_find.dir/build.make stl/CMakeFiles/ex5_string_find.dir/build
+.PHONY : ex5_string_find/fast
+
+#=============================================================================
+# Target rules for targets named ex6_iterator
+
+# Build rule for target.
+ex6_iterator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex6_iterator
+.PHONY : ex6_iterator
+
+# fast build rule for target.
+ex6_iterator/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex6_iterator.dir/build.make stl/CMakeFiles/ex6_iterator.dir/build
+.PHONY : ex6_iterator/fast
+
+#=============================================================================
+# Target rules for targets named ex7_map
+
+# Build rule for target.
+ex7_map: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex7_map
+.PHONY : ex7_map
+
+# fast build rule for target.
+ex7_map/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex7_map.dir/build.make stl/CMakeFiles/ex7_map.dir/build
+.PHONY : ex7_map/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1217,6 +1256,9 @@ help:
 	@echo "... ex2_string_vector"
 	@echo "... ex3_longest"
 	@echo "... ex4_string"
+	@echo "... ex5_string_find"
+	@echo "... ex6_iterator"
+	@echo "... ex7_map"
 	@echo "... fahr2celsius"
 	@echo "... fflushEx"
 	@echo "... fileDescriptor"
