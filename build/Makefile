@@ -1481,6 +1481,32 @@ ex4_shared_ptr/fast:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex4_shared_ptr.dir/build.make smartpoint/CMakeFiles/ex4_shared_ptr.dir/build
 .PHONY : ex4_shared_ptr/fast
 
+#=============================================================================
+# Target rules for targets named ex5_memoryLeak
+
+# Build rule for target.
+ex5_memoryLeak: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex5_memoryLeak
+.PHONY : ex5_memoryLeak
+
+# fast build rule for target.
+ex5_memoryLeak/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex5_memoryLeak.dir/build.make smartpoint/CMakeFiles/ex5_memoryLeak.dir/build
+.PHONY : ex5_memoryLeak/fast
+
+#=============================================================================
+# Target rules for targets named ex6_weakedPtr
+
+# Build rule for target.
+ex6_weakedPtr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex6_weakedPtr
+.PHONY : ex6_weakedPtr
+
+# fast build rule for target.
+ex6_weakedPtr/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex6_weakedPtr.dir/build.make smartpoint/CMakeFiles/ex6_weakedPtr.dir/build
+.PHONY : ex6_weakedPtr/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1531,8 +1557,10 @@ help:
 	@echo "... ex3_longest"
 	@echo "... ex4_shared_ptr"
 	@echo "... ex4_string"
+	@echo "... ex5_memoryLeak"
 	@echo "... ex5_string_find"
 	@echo "... ex6_iterator"
+	@echo "... ex6_weakedPtr"
 	@echo "... ex7_map"
 	@echo "... ex8_vector_list1"
 	@echo "... ex8_vector_list2"

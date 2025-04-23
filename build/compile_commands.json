@@ -553,5 +553,15 @@
   "directory": "/home/ljy/kubig2025/build/smartpoint",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex4_shared_ptr.dir/ex4_shared_ptr.cpp.o -c /home/ljy/kubig2025/smartpoint/ex4_shared_ptr.cpp",
   "file": "/home/ljy/kubig2025/smartpoint/ex4_shared_ptr.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex5_memoryLeak.dir/ex5_memoryLeak.cpp.o -c /home/ljy/kubig2025/smartpoint/ex5_memoryLeak.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex5_memoryLeak.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex6_weakedPtr.dir/ex6_weakedPtr.cpp.o -c /home/ljy/kubig2025/smartpoint/ex6_weakedPtr.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex6_weakedPtr.cpp"
 }
 ]
