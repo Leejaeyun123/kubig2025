@@ -1391,6 +1391,19 @@ ex9_lambda/fast:
 .PHONY : ex9_lambda/fast
 
 #=============================================================================
+# Target rules for targets named student_example
+
+# Build rule for target.
+student_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 student_example
+.PHONY : student_example
+
+# fast build rule for target.
+student_example/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/student_example.dir/build.make stl/CMakeFiles/student_example.dir/build
+.PHONY : student_example/fast
+
+#=============================================================================
 # Target rules for targets named data_process
 
 # Build rule for target.
@@ -1415,6 +1428,45 @@ range_example: cmake_check_build_system
 range_example/fast:
 	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/range_example.dir/build.make stl/CMakeFiles/range_example.dir/build
 .PHONY : range_example/fast
+
+#=============================================================================
+# Target rules for targets named ex1_unique_ptr
+
+# Build rule for target.
+ex1_unique_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1_unique_ptr
+.PHONY : ex1_unique_ptr
+
+# fast build rule for target.
+ex1_unique_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex1_unique_ptr.dir/build.make smartpoint/CMakeFiles/ex1_unique_ptr.dir/build
+.PHONY : ex1_unique_ptr/fast
+
+#=============================================================================
+# Target rules for targets named ex2_moveOperator
+
+# Build rule for target.
+ex2_moveOperator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex2_moveOperator
+.PHONY : ex2_moveOperator
+
+# fast build rule for target.
+ex2_moveOperator/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex2_moveOperator.dir/build.make smartpoint/CMakeFiles/ex2_moveOperator.dir/build
+.PHONY : ex2_moveOperator/fast
+
+#=============================================================================
+# Target rules for targets named ex3_deleter
+
+# Build rule for target.
+ex3_deleter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_deleter
+.PHONY : ex3_deleter
+
+# fast build rule for target.
+ex3_deleter/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex3_deleter.dir/build.make smartpoint/CMakeFiles/ex3_deleter.dir/build
+.PHONY : ex3_deleter/fast
 
 # Help Target
 help:
@@ -1458,8 +1510,11 @@ help:
 	@echo "... ex17_sort_fstream"
 	@echo "... ex17_sort_fstream2"
 	@echo "... ex18_excution"
+	@echo "... ex1_unique_ptr"
 	@echo "... ex1_vector"
+	@echo "... ex2_moveOperator"
 	@echo "... ex2_string_vector"
+	@echo "... ex3_deleter"
 	@echo "... ex3_longest"
 	@echo "... ex4_string"
 	@echo "... ex5_string_find"
@@ -1513,6 +1568,7 @@ help:
 	@echo "... star"
 	@echo "... staticLocalVariable"
 	@echo "... stringExample"
+	@echo "... student_example"
 	@echo "... sumArray"
 	@echo "... sumArrayFunction"
 	@echo "... sumMatrix"

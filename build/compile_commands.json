@@ -511,6 +511,11 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/student_example.dir/student_example.cpp.o -c /home/ljy/kubig2025/stl/student_example.cpp",
+  "file": "/home/ljy/kubig2025/stl/student_example.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
   "command": "/usr/bin/g++   -g -o CMakeFiles/data_process.dir/data_process/data_process.cpp.o -c /home/ljy/kubig2025/stl/data_process/data_process.cpp",
   "file": "/home/ljy/kubig2025/stl/data_process/data_process.cpp"
 },
@@ -528,5 +533,20 @@
   "directory": "/home/ljy/kubig2025/build/stl",
   "command": "/usr/bin/g++   -g -o CMakeFiles/range_example.dir/range_example/processor.cpp.o -c /home/ljy/kubig2025/stl/range_example/processor.cpp",
   "file": "/home/ljy/kubig2025/stl/range_example/processor.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex1_unique_ptr.dir/ex1_unique_ptr.cpp.o -c /home/ljy/kubig2025/smartpoint/ex1_unique_ptr.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex1_unique_ptr.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex2_moveOperator.dir/ex2_moveOperator.cpp.o -c /home/ljy/kubig2025/smartpoint/ex2_moveOperator.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex2_moveOperator.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex3_deleter.dir/ex3_deleter.cpp.o -c /home/ljy/kubig2025/smartpoint/ex3_deleter.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex3_deleter.cpp"
 }
 ]
