@@ -441,6 +441,16 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex16_transform.dir/ex16_transform.cpp.o -c /home/ljy/kubig2025/stl/ex16_transform.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex16_transform.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex17_sort_fstream.dir/ex17_sort_fstream.cpp.o -c /home/ljy/kubig2025/stl/ex17_sort_fstream.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex17_sort_fstream.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex1_vector.dir/ex1_vector.cpp.o -c /home/ljy/kubig2025/stl/ex1_vector.cpp",
   "file": "/home/ljy/kubig2025/stl/ex1_vector.cpp"
 },
