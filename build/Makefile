@@ -1468,6 +1468,19 @@ ex3_deleter/fast:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex3_deleter.dir/build.make smartpoint/CMakeFiles/ex3_deleter.dir/build
 .PHONY : ex3_deleter/fast
 
+#=============================================================================
+# Target rules for targets named ex4_shared_ptr
+
+# Build rule for target.
+ex4_shared_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_shared_ptr
+.PHONY : ex4_shared_ptr
+
+# fast build rule for target.
+ex4_shared_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex4_shared_ptr.dir/build.make smartpoint/CMakeFiles/ex4_shared_ptr.dir/build
+.PHONY : ex4_shared_ptr/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1516,6 +1529,7 @@ help:
 	@echo "... ex2_string_vector"
 	@echo "... ex3_deleter"
 	@echo "... ex3_longest"
+	@echo "... ex4_shared_ptr"
 	@echo "... ex4_string"
 	@echo "... ex5_string_find"
 	@echo "... ex6_iterator"
