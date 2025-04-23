@@ -451,6 +451,16 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex17_sort_fstream2.dir/ex17_sort_fstream2.cpp.o -c /home/ljy/kubig2025/stl/ex17_sort_fstream2.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex17_sort_fstream2.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex18_excution.dir/ex18_excution.cpp.o -c /home/ljy/kubig2025/stl/ex18_excution.cpp",
+  "file": "/home/ljy/kubig2025/stl/ex18_excution.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/stl",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex1_vector.dir/ex1_vector.cpp.o -c /home/ljy/kubig2025/stl/ex1_vector.cpp",
   "file": "/home/ljy/kubig2025/stl/ex1_vector.cpp"
 },

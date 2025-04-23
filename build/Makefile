@@ -1235,6 +1235,32 @@ ex17_sort_fstream/fast:
 .PHONY : ex17_sort_fstream/fast
 
 #=============================================================================
+# Target rules for targets named ex17_sort_fstream2
+
+# Build rule for target.
+ex17_sort_fstream2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex17_sort_fstream2
+.PHONY : ex17_sort_fstream2
+
+# fast build rule for target.
+ex17_sort_fstream2/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex17_sort_fstream2.dir/build.make stl/CMakeFiles/ex17_sort_fstream2.dir/build
+.PHONY : ex17_sort_fstream2/fast
+
+#=============================================================================
+# Target rules for targets named ex18_excution
+
+# Build rule for target.
+ex18_excution: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex18_excution
+.PHONY : ex18_excution
+
+# fast build rule for target.
+ex18_excution/fast:
+	$(MAKE) $(MAKESILENT) -f stl/CMakeFiles/ex18_excution.dir/build.make stl/CMakeFiles/ex18_excution.dir/build
+.PHONY : ex18_excution/fast
+
+#=============================================================================
 # Target rules for targets named ex1_vector
 
 # Build rule for target.
@@ -1430,6 +1456,8 @@ help:
 	@echo "... ex15_unordered_map"
 	@echo "... ex16_transform"
 	@echo "... ex17_sort_fstream"
+	@echo "... ex17_sort_fstream2"
+	@echo "... ex18_excution"
 	@echo "... ex1_vector"
 	@echo "... ex2_string_vector"
 	@echo "... ex3_longest"
