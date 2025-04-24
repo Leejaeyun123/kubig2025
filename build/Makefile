@@ -1469,6 +1469,19 @@ ex12_vriantOptional/fast:
 .PHONY : ex12_vriantOptional/fast
 
 #=============================================================================
+# Target rules for targets named ex13_thread
+
+# Build rule for target.
+ex13_thread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex13_thread
+.PHONY : ex13_thread
+
+# fast build rule for target.
+ex13_thread/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex13_thread.dir/build.make smartpoint/CMakeFiles/ex13_thread.dir/build
+.PHONY : ex13_thread/fast
+
+#=============================================================================
 # Target rules for targets named ex1_unique_ptr
 
 # Build rule for target.
@@ -1624,6 +1637,7 @@ help:
 	@echo "... ex12_constexprestion"
 	@echo "... ex12_vriantOptional"
 	@echo "... ex13_array"
+	@echo "... ex13_thread"
 	@echo "... ex14_priority_queue"
 	@echo "... ex15_unordered_map"
 	@echo "... ex16_transform"
