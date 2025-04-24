@@ -1507,6 +1507,32 @@ ex6_weakedPtr/fast:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex6_weakedPtr.dir/build.make smartpoint/CMakeFiles/ex6_weakedPtr.dir/build
 .PHONY : ex6_weakedPtr/fast
 
+#=============================================================================
+# Target rules for targets named ex7_vectorSmart
+
+# Build rule for target.
+ex7_vectorSmart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex7_vectorSmart
+.PHONY : ex7_vectorSmart
+
+# fast build rule for target.
+ex7_vectorSmart/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex7_vectorSmart.dir/build.make smartpoint/CMakeFiles/ex7_vectorSmart.dir/build
+.PHONY : ex7_vectorSmart/fast
+
+#=============================================================================
+# Target rules for targets named ex8_treeSmart
+
+# Build rule for target.
+ex8_treeSmart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_treeSmart
+.PHONY : ex8_treeSmart
+
+# fast build rule for target.
+ex8_treeSmart/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex8_treeSmart.dir/build.make smartpoint/CMakeFiles/ex8_treeSmart.dir/build
+.PHONY : ex8_treeSmart/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1562,6 +1588,8 @@ help:
 	@echo "... ex6_iterator"
 	@echo "... ex6_weakedPtr"
 	@echo "... ex7_map"
+	@echo "... ex7_vectorSmart"
+	@echo "... ex8_treeSmart"
 	@echo "... ex8_vector_list1"
 	@echo "... ex8_vector_list2"
 	@echo "... ex9_lambda"
