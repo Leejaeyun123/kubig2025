@@ -1508,6 +1508,32 @@ ex15_multithreadTask/fast:
 .PHONY : ex15_multithreadTask/fast
 
 #=============================================================================
+# Target rules for targets named ex16_finalModernExample
+
+# Build rule for target.
+ex16_finalModernExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex16_finalModernExample
+.PHONY : ex16_finalModernExample
+
+# fast build rule for target.
+ex16_finalModernExample/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex16_finalModernExample.dir/build.make smartpoint/CMakeFiles/ex16_finalModernExample.dir/build
+.PHONY : ex16_finalModernExample/fast
+
+#=============================================================================
+# Target rules for targets named ex17_final2
+
+# Build rule for target.
+ex17_final2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex17_final2
+.PHONY : ex17_final2
+
+# fast build rule for target.
+ex17_final2/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex17_final2.dir/build.make smartpoint/CMakeFiles/ex17_final2.dir/build
+.PHONY : ex17_final2/fast
+
+#=============================================================================
 # Target rules for targets named ex1_unique_ptr
 
 # Build rule for target.
@@ -1668,7 +1694,9 @@ help:
 	@echo "... ex14_priority_queue"
 	@echo "... ex15_multithreadTask"
 	@echo "... ex15_unordered_map"
+	@echo "... ex16_finalModernExample"
 	@echo "... ex16_transform"
+	@echo "... ex17_final2"
 	@echo "... ex17_sort_fstream"
 	@echo "... ex17_sort_fstream2"
 	@echo "... ex18_excution"

@@ -566,6 +566,16 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex16_finalModernExample.dir/ex16_finalModernExample.cpp.o -c /home/ljy/kubig2025/smartpoint/ex16_finalModernExample.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex16_finalModernExample.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex17_final2.dir/ex17_final2.cpp.o -c /home/ljy/kubig2025/smartpoint/ex17_final2.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex17_final2.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex1_unique_ptr.dir/ex1_unique_ptr.cpp.o -c /home/ljy/kubig2025/smartpoint/ex1_unique_ptr.cpp",
   "file": "/home/ljy/kubig2025/smartpoint/ex1_unique_ptr.cpp"
 },
