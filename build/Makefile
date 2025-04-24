@@ -1482,6 +1482,32 @@ ex13_thread/fast:
 .PHONY : ex13_thread/fast
 
 #=============================================================================
+# Target rules for targets named ex14_anyncFuture
+
+# Build rule for target.
+ex14_anyncFuture: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex14_anyncFuture
+.PHONY : ex14_anyncFuture
+
+# fast build rule for target.
+ex14_anyncFuture/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex14_anyncFuture.dir/build.make smartpoint/CMakeFiles/ex14_anyncFuture.dir/build
+.PHONY : ex14_anyncFuture/fast
+
+#=============================================================================
+# Target rules for targets named ex15_multithreadTask
+
+# Build rule for target.
+ex15_multithreadTask: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex15_multithreadTask
+.PHONY : ex15_multithreadTask
+
+# fast build rule for target.
+ex15_multithreadTask/fast:
+	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex15_multithreadTask.dir/build.make smartpoint/CMakeFiles/ex15_multithreadTask.dir/build
+.PHONY : ex15_multithreadTask/fast
+
+#=============================================================================
 # Target rules for targets named ex1_unique_ptr
 
 # Build rule for target.
@@ -1638,7 +1664,9 @@ help:
 	@echo "... ex12_vriantOptional"
 	@echo "... ex13_array"
 	@echo "... ex13_thread"
+	@echo "... ex14_anyncFuture"
 	@echo "... ex14_priority_queue"
+	@echo "... ex15_multithreadTask"
 	@echo "... ex15_unordered_map"
 	@echo "... ex16_transform"
 	@echo "... ex17_sort_fstream"

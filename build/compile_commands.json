@@ -556,6 +556,16 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex14_anyncFuture.dir/ex14_anyncFuture.cpp.o -c /home/ljy/kubig2025/smartpoint/ex14_anyncFuture.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex14_anyncFuture.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex15_multithreadTask.dir/ex15_multithreadTask.cpp.o -c /home/ljy/kubig2025/smartpoint/ex15_multithreadTask.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex15_multithreadTask.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex1_unique_ptr.dir/ex1_unique_ptr.cpp.o -c /home/ljy/kubig2025/smartpoint/ex1_unique_ptr.cpp",
   "file": "/home/ljy/kubig2025/smartpoint/ex1_unique_ptr.cpp"
 },
