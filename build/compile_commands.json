@@ -536,6 +536,21 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex10_moveVector.dir/ex10_moveVector.cpp.o -c /home/ljy/kubig2025/smartpoint/ex10_moveVector.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex10_moveVector.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex11_moveClass.dir/ex11_moveClass.cpp.o -c /home/ljy/kubig2025/smartpoint/ex11_moveClass.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex11_moveClass.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex12_vriantOptional.dir/ex12_vriantOptional.cpp.o -c /home/ljy/kubig2025/smartpoint/ex12_vriantOptional.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex12_vriantOptional.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex1_unique_ptr.dir/ex1_unique_ptr.cpp.o -c /home/ljy/kubig2025/smartpoint/ex1_unique_ptr.cpp",
   "file": "/home/ljy/kubig2025/smartpoint/ex1_unique_ptr.cpp"
 },
@@ -573,5 +588,10 @@
   "directory": "/home/ljy/kubig2025/build/smartpoint",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex8_treeSmart.dir/ex8_treeSmart.cpp.o -c /home/ljy/kubig2025/smartpoint/ex8_treeSmart.cpp",
   "file": "/home/ljy/kubig2025/smartpoint/ex8_treeSmart.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/smartpoint",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/ex9_forward.dir/ex9_forward.cpp.o -c /home/ljy/kubig2025/smartpoint/ex9_forward.cpp",
+  "file": "/home/ljy/kubig2025/smartpoint/ex9_forward.cpp"
 }
 ]
