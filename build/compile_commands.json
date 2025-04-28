@@ -621,6 +621,21 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build/network",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/pipe.dir/pipe.c.o -c /home/ljy/kubig2025/network/pipe.c",
+  "file": "/home/ljy/kubig2025/network/pipe.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/network",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/pipe_client.dir/pipe_client.c.o -c /home/ljy/kubig2025/network/pipe_client.c",
+  "file": "/home/ljy/kubig2025/network/pipe_client.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/network",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/pipe_server.dir/pipe_server.c.o -c /home/ljy/kubig2025/network/pipe_server.c",
+  "file": "/home/ljy/kubig2025/network/pipe_server.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/network",
   "command": "/usr/bin/gcc   -g -o CMakeFiles/shm_client.dir/shm_client.c.o -c /home/ljy/kubig2025/network/shm_client.c",
   "file": "/home/ljy/kubig2025/network/shm_client.c"
 },
