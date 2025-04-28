@@ -1651,6 +1651,32 @@ ex9_forward/fast:
 .PHONY : ex9_forward/fast
 
 #=============================================================================
+# Target rules for targets named mq_client
+
+# Build rule for target.
+mq_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mq_client
+.PHONY : mq_client
+
+# fast build rule for target.
+mq_client/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_client.dir/build.make network/CMakeFiles/mq_client.dir/build
+.PHONY : mq_client/fast
+
+#=============================================================================
+# Target rules for targets named mq_server
+
+# Build rule for target.
+mq_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mq_server
+.PHONY : mq_server
+
+# fast build rule for target.
+mq_server/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mq_server.dir/build.make network/CMakeFiles/mq_server.dir/build
+.PHONY : mq_server/fast
+
+#=============================================================================
 # Target rules for targets named pipe
 
 # Build rule for target.
@@ -1856,6 +1882,8 @@ help:
 	@echo "... leafYear"
 	@echo "... limit"
 	@echo "... literal"
+	@echo "... mq_client"
+	@echo "... mq_server"
 	@echo "... multiplyTable"
 	@echo "... myRandom"
 	@echo "... myString"
