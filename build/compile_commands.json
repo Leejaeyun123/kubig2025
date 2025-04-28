@@ -621,6 +621,16 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build/network",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/hello_client.dir/hello_client.c.o -c /home/ljy/kubig2025/network/hello_client.c",
+  "file": "/home/ljy/kubig2025/network/hello_client.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/network",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/hello_server.dir/hello_server.c.o -c /home/ljy/kubig2025/network/hello_server.c",
+  "file": "/home/ljy/kubig2025/network/hello_server.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/network",
   "command": "/usr/bin/gcc   -g -o CMakeFiles/mq_client.dir/mq_client.c.o -c /home/ljy/kubig2025/network/mq_client.c",
   "file": "/home/ljy/kubig2025/network/mq_client.c"
 },

@@ -1651,6 +1651,32 @@ ex9_forward/fast:
 .PHONY : ex9_forward/fast
 
 #=============================================================================
+# Target rules for targets named hello_client
+
+# Build rule for target.
+hello_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_client
+.PHONY : hello_client
+
+# fast build rule for target.
+hello_client/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_client.dir/build.make network/CMakeFiles/hello_client.dir/build
+.PHONY : hello_client/fast
+
+#=============================================================================
+# Target rules for targets named hello_server
+
+# Build rule for target.
+hello_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_server
+.PHONY : hello_server
+
+# fast build rule for target.
+hello_server/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/hello_server.dir/build.make network/CMakeFiles/hello_server.dir/build
+.PHONY : hello_server/fast
+
+#=============================================================================
 # Target rules for targets named mq_client
 
 # Build rule for target.
@@ -1877,6 +1903,8 @@ help:
 	@echo "... grade"
 	@echo "... grade2"
 	@echo "... helloStr"
+	@echo "... hello_client"
+	@echo "... hello_server"
 	@echo "... increment"
 	@echo "... infinit"
 	@echo "... leafYear"
