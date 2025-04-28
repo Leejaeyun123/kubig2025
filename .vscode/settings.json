@@ -80,7 +80,8 @@
         "numbers": "cpp",
         "stdexcept": "cpp",
         "typeinfo": "cpp",
-        "cstring": "cpp"
+        "cstring": "cpp",
+        "mman.h": "c"
     },
     "ros.distro": "humble",
     "cmake.sourceDirectory": "/home/ljy/kubig2025"
