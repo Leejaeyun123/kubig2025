@@ -618,5 +618,10 @@
   "directory": "/home/ljy/kubig2025/build/smartpoint",
   "command": "/usr/bin/g++   -g -o CMakeFiles/ex9_forward.dir/ex9_forward.cpp.o -c /home/ljy/kubig2025/smartpoint/ex9_forward.cpp",
   "file": "/home/ljy/kubig2025/smartpoint/ex9_forward.cpp"
+},
+{
+  "directory": "/home/ljy/kubig2025/build/network",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/shm_test.dir/shm_test.c.o -c /home/ljy/kubig2025/network/shm_test.c",
+  "file": "/home/ljy/kubig2025/network/shm_test.c"
 }
 ]

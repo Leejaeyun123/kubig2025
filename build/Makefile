@@ -1650,6 +1650,19 @@ ex9_forward/fast:
 	$(MAKE) $(MAKESILENT) -f smartpoint/CMakeFiles/ex9_forward.dir/build.make smartpoint/CMakeFiles/ex9_forward.dir/build
 .PHONY : ex9_forward/fast
 
+#=============================================================================
+# Target rules for targets named shm_test
+
+# Build rule for target.
+shm_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shm_test
+.PHONY : shm_test
+
+# fast build rule for target.
+shm_test/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/shm_test.dir/build.make network/CMakeFiles/shm_test.dir/build
+.PHONY : shm_test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1760,6 +1773,7 @@ help:
 	@echo "... returnValue"
 	@echo "... scoreGrade"
 	@echo "... selection"
+	@echo "... shm_test"
 	@echo "... sizeof"
 	@echo "... star"
 	@echo "... staticLocalVariable"

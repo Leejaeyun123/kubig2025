@@ -254,6 +254,15 @@ myString_IS_TOP_LEVEL:STATIC=OFF
 myString_SOURCE_DIR:STATIC=/home/ljy/kubig2025/c_example/part3/string
 
 //Value Computed by CMake
+network_BINARY_DIR:STATIC=/home/ljy/kubig2025/build/network
+
+//Value Computed by CMake
+network_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+network_SOURCE_DIR:STATIC=/home/ljy/kubig2025/network
+
+//Value Computed by CMake
 part1_BINARY_DIR:STATIC=/home/ljy/kubig2025/build/c_example/part1
 
 //Value Computed by CMake
@@ -392,7 +401,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
