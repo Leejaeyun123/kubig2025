@@ -8,6 +8,7 @@
 #include <sys/socket.h>
 #include <unistd.h>
 void error_handling(char *message);
+int calculate(int opnum, int opnds[], char op);
 
 #define BUF_SIZE 1024
 
@@ -42,6 +43,12 @@ int main(int argc, char *argv[])
         error_handling("바인드 에러!!!");
     if (listen(serv_sock, 5) == -1)
         error_handling("리슨 에러"); // 대기!!!
+
+    int opnd_cnt = 0;
+    int recv_len = 0, recv_cnt;
+    char opinfo[BUF_SIZE];
+    int result;
+
     for (int i = 0; i < 20; ++i)
     {
         clnt_addr_size = sizeof(clnt_addr);
@@ -50,13 +57,20 @@ int main(int argc, char *argv[])
             error_handling("accept() 에러!!");
         else
             printf("Conneted client %d : %s \n", i + 1, inet_ntoa(clnt_addr.sin_addr));
-        char message[BUF_SIZE];
-        while (str_len = read(clnt_sock, message, sizeof(message) - 1))
+        printf("??\n");
+        read(clnt_sock, &opnd_cnt, 1);
+        printf("피연산자 숫자!%d\n", opnd_cnt);
+
+        recv_len = 0;
+        while ((opnd_cnt * 4 + 1) > recv_len)
         {
-            message[str_len] = '\0';
-            printf("서버 받은 메세지: %s \n", message);
-            write(clnt_sock, message, str_len);
+            recv_cnt = read(clnt_sock, &opinfo[recv_len], BUF_SIZE - 1);
+            recv_len += recv_cnt;
         }
+        printf("recv_len : %d", recv_len);
+        printf("연산자 : %c", opinfo[recv_len - 1]);
+        result = calculate(opnd_cnt, (int *)opinfo, opinfo[recv_len - 1]);
+        write(clnt_sock, (char *)&result, sizeof(result));
         close(clnt_sock);
     }
 
@@ -70,4 +84,28 @@ void error_handling(char *message)
     fputs(message, stderr);
     fputc('\n', stderr);
     exit(1);
+}
+
+int calculate(int opnum, int opnds[], char op)
+{
+    int result = opnds[0], i;
+    switch (op)
+    {
+    case '+':
+        for (i = 1; i < opnum; ++i)
+            result += opnds[i];
+        break;
+    case '*':
+        for (i = 1; i < opnum; ++i)
+            result *= opnds[i];
+        break;
+    case '-':
+        for (i = 1; i < opnum; ++i)
+            result -= opnds[i];
+        break;
+    default:
+        result = 0;
+    }
+
+    return result;
 }

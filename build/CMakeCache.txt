@@ -251,15 +251,6 @@ myString_IS_TOP_LEVEL:STATIC=OFF
 myString_SOURCE_DIR:STATIC=/home/ljy/kubig2025/c_example/part3/string
 
 //Value Computed by CMake
-network_BINARY_DIR:STATIC=/home/ljy/kubig2025/build/network
-
-//Value Computed by CMake
-network_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-network_SOURCE_DIR:STATIC=/home/ljy/kubig2025/network
-
-//Value Computed by CMake
 network_icp_BINARY_DIR:STATIC=/home/ljy/kubig2025/build/network/ipc
 
 //Value Computed by CMake

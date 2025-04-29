@@ -35,26 +35,38 @@ int main(int argc, char *argv[])
         puts("Connected............");
     char message[BUF_SIZE];
     int str_len, recv_len, recv_cnt;
-    while (1)
+    int result, opnd_cnt, i;
+
+    fputs("피 연산자 객수를 넣으세요!: ", stdout);
+    scanf("%d", &opnd_cnt);
+    message[0] = (char)opnd_cnt;
+
+    for (i = 0; i < opnd_cnt; ++i)
     {
-        fputs("메세지를 넣으세요(Q 나가기): ", stdout);
-        fgets(message, BUF_SIZE, stdin);
-        if (!strcmp(message, "q\n") || !strcmp(message, "Q\n"))
-            break;
-        str_len = write(sock, message, strlen(message));
-        while (recv_len < str_len)
-        {
-            recv_cnt = read(sock, message, BUF_SIZE - 1);
-            if (recv_cnt == -1)
-            {
-                fputs("read() 에러!!!", stderr);
-                break;
-            }
-            recv_len += recv_cnt;
-        }
-        message[str_len] = '\0';
-        printf("서버에서 온 메세지: %s", message);
+        printf(" %d 번째 피 연산자 를 넣으세요!: ", i + 1);
+        scanf("%d", (int *)&message[i * 4 + 1]);
     }
+    fgetc(stdin); // 버퍼에 남은것 버리기
+    fputs("연산자를 넣으세요! :", stdout);
+    scanf("%c", &message[opnd_cnt * 4 + 1]);
+    fputs("메세지는 !!: ", stdout);
+    fputc(message[0], stdout);
+    fputc(message[1], stdout);
+    fputc(message[2], stdout);
+    fputc(message[3], stdout);
+    fputc(message[4], stdout);
+    fputc(message[5], stdout);
+    fputc(message[6], stdout);
+    fputc(message[7], stdout);
+    fputc(message[8], stdout);
+    fputc(message[9], stdout);
+    fputs("메세지는 !!: ", stdout);
+
+    write(sock, message, opnd_cnt * 4 + 2);
+
+    read(sock, &result, 4);
+
+    printf("연산의 결과는: %d \n", result);
     close(sock);
 
     return 0;

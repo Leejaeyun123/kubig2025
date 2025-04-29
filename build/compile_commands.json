@@ -696,6 +696,16 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/tcp/CMakeFiles/op_client.dir/op_client.c.o -c /home/ljy/kubig2025/network/tcp/op_client.c",
+  "file": "/home/ljy/kubig2025/network/tcp/op_client.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/tcp/CMakeFiles/op_server.dir/op_server.c.o -c /home/ljy/kubig2025/network/tcp/op_server.c",
+  "file": "/home/ljy/kubig2025/network/tcp/op_server.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/endian_conv.dir/endian_conv.c.o -c /home/ljy/kubig2025/network/util/endian_conv.c",
   "file": "/home/ljy/kubig2025/network/util/endian_conv.c"
 },
