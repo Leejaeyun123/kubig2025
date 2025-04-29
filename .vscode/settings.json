@@ -81,7 +81,8 @@
         "stdexcept": "cpp",
         "typeinfo": "cpp",
         "cstring": "cpp",
-        "mman.h": "c"
+        "mman.h": "c",
+        "unistd.h": "c"
     },
     "ros.distro": "humble",
     "cmake.sourceDirectory": "/home/ljy/kubig2025"
