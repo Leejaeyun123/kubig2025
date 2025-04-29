@@ -621,67 +621,77 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/hello_client.dir/hello_client.c.o -c /home/ljy/kubig2025/network/hello_client.c",
-  "file": "/home/ljy/kubig2025/network/hello_client.c"
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/mq_client.dir/mq_client.c.o -c /home/ljy/kubig2025/network/ipc/mq_client.c",
+  "file": "/home/ljy/kubig2025/network/ipc/mq_client.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/hello_server.dir/hello_server.c.o -c /home/ljy/kubig2025/network/hello_server.c",
-  "file": "/home/ljy/kubig2025/network/hello_server.c"
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/mq_server.dir/mq_server.c.o -c /home/ljy/kubig2025/network/ipc/mq_server.c",
+  "file": "/home/ljy/kubig2025/network/ipc/mq_server.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/mq_client.dir/mq_client.c.o -c /home/ljy/kubig2025/network/mq_client.c",
-  "file": "/home/ljy/kubig2025/network/mq_client.c"
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/pipe.dir/pipe.c.o -c /home/ljy/kubig2025/network/ipc/pipe.c",
+  "file": "/home/ljy/kubig2025/network/ipc/pipe.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/mq_server.dir/mq_server.c.o -c /home/ljy/kubig2025/network/mq_server.c",
-  "file": "/home/ljy/kubig2025/network/mq_server.c"
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/pipe_client.dir/pipe_client.c.o -c /home/ljy/kubig2025/network/ipc/pipe_client.c",
+  "file": "/home/ljy/kubig2025/network/ipc/pipe_client.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/pipe.dir/pipe.c.o -c /home/ljy/kubig2025/network/pipe.c",
-  "file": "/home/ljy/kubig2025/network/pipe.c"
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/pipe_server.dir/pipe_server.c.o -c /home/ljy/kubig2025/network/ipc/pipe_server.c",
+  "file": "/home/ljy/kubig2025/network/ipc/pipe_server.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/pipe_client.dir/pipe_client.c.o -c /home/ljy/kubig2025/network/pipe_client.c",
-  "file": "/home/ljy/kubig2025/network/pipe_client.c"
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/shm_client.dir/shm_client.c.o -c /home/ljy/kubig2025/network/ipc/shm_client.c",
+  "file": "/home/ljy/kubig2025/network/ipc/shm_client.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/pipe_server.dir/pipe_server.c.o -c /home/ljy/kubig2025/network/pipe_server.c",
-  "file": "/home/ljy/kubig2025/network/pipe_server.c"
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/shm_semaphore.dir/shm_semaphore.c.o -c /home/ljy/kubig2025/network/ipc/shm_semaphore.c",
+  "file": "/home/ljy/kubig2025/network/ipc/shm_semaphore.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/shm_client.dir/shm_client.c.o -c /home/ljy/kubig2025/network/shm_client.c",
-  "file": "/home/ljy/kubig2025/network/shm_client.c"
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/shm_semaphore2.dir/shm_semaphore2.c.o -c /home/ljy/kubig2025/network/ipc/shm_semaphore2.c",
+  "file": "/home/ljy/kubig2025/network/ipc/shm_semaphore2.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/shm_semaphore.dir/shm_semaphore.c.o -c /home/ljy/kubig2025/network/shm_semaphore.c",
-  "file": "/home/ljy/kubig2025/network/shm_semaphore.c"
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/shm_server.dir/shm_server.c.o -c /home/ljy/kubig2025/network/ipc/shm_server.c",
+  "file": "/home/ljy/kubig2025/network/ipc/shm_server.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/shm_semaphore2.dir/shm_semaphore2.c.o -c /home/ljy/kubig2025/network/shm_semaphore2.c",
-  "file": "/home/ljy/kubig2025/network/shm_semaphore2.c"
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/shm_test.dir/shm_test.c.o -c /home/ljy/kubig2025/network/ipc/shm_test.c",
+  "file": "/home/ljy/kubig2025/network/ipc/shm_test.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/shm_server.dir/shm_server.c.o -c /home/ljy/kubig2025/network/shm_server.c",
-  "file": "/home/ljy/kubig2025/network/shm_server.c"
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/shm_test2.dir/shm_test2.c.o -c /home/ljy/kubig2025/network/ipc/shm_test2.c",
+  "file": "/home/ljy/kubig2025/network/ipc/shm_test2.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/shm_test.dir/shm_test.c.o -c /home/ljy/kubig2025/network/shm_test.c",
-  "file": "/home/ljy/kubig2025/network/shm_test.c"
+  "command": "/usr/bin/gcc -g -o network/tcp/CMakeFiles/hello_client.dir/hello_client.c.o -c /home/ljy/kubig2025/network/tcp/hello_client.c",
+  "file": "/home/ljy/kubig2025/network/tcp/hello_client.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
-  "command": "/usr/bin/gcc -g -o network/CMakeFiles/shm_test2.dir/shm_test2.c.o -c /home/ljy/kubig2025/network/shm_test2.c",
-  "file": "/home/ljy/kubig2025/network/shm_test2.c"
+  "command": "/usr/bin/gcc -g -o network/tcp/CMakeFiles/hello_server.dir/hello_server.c.o -c /home/ljy/kubig2025/network/tcp/hello_server.c",
+  "file": "/home/ljy/kubig2025/network/tcp/hello_server.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/endian_conv.dir/endian_conv.c.o -c /home/ljy/kubig2025/network/util/endian_conv.c",
+  "file": "/home/ljy/kubig2025/network/util/endian_conv.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/inet_addr.dir/inet_addr.c.o -c /home/ljy/kubig2025/network/util/inet_addr.c",
+  "file": "/home/ljy/kubig2025/network/util/inet_addr.c"
 }
 ]
