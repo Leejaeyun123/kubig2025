@@ -676,6 +676,16 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/tcp/CMakeFiles/echo_client.dir/echo_client.c.o -c /home/ljy/kubig2025/network/tcp/echo_client.c",
+  "file": "/home/ljy/kubig2025/network/tcp/echo_client.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/tcp/CMakeFiles/echo_server.dir/echo_server.c.o -c /home/ljy/kubig2025/network/tcp/echo_server.c",
+  "file": "/home/ljy/kubig2025/network/tcp/echo_server.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/tcp/CMakeFiles/hello_client.dir/hello_client.c.o -c /home/ljy/kubig2025/network/tcp/hello_client.c",
   "file": "/home/ljy/kubig2025/network/tcp/hello_client.c"
 },
