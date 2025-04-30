@@ -746,7 +746,32 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/getHostByAddr.dir/getHostByAddr.c.o -c /home/ljy/kubig2025/network/util/getHostByAddr.c",
+  "file": "/home/ljy/kubig2025/network/util/getHostByAddr.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/getHostByName.dir/getHostByName.c.o -c /home/ljy/kubig2025/network/util/getHostByName.c",
+  "file": "/home/ljy/kubig2025/network/util/getHostByName.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/inet_addr.dir/inet_addr.c.o -c /home/ljy/kubig2025/network/util/inet_addr.c",
   "file": "/home/ljy/kubig2025/network/util/inet_addr.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/wait.dir/wait.c.o -c /home/ljy/kubig2025/network/multiProcess/wait.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/wait.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/waitpid.dir/waitpid.c.o -c /home/ljy/kubig2025/network/multiProcess/waitpid.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/waitpid.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/zombie.dir/zombie.c.o -c /home/ljy/kubig2025/network/multiProcess/zombie.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/zombie.c"
 }
 ]
