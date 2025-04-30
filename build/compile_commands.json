@@ -771,6 +771,11 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/select.dir/select.c.o -c /home/ljy/kubig2025/network/util/select.c",
+  "file": "/home/ljy/kubig2025/network/util/select.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/echo_mpclient.dir/echo_mpclient.c.o -c /home/ljy/kubig2025/network/multiProcess/echo_mpclient.c",
   "file": "/home/ljy/kubig2025/network/multiProcess/echo_mpclient.c"
 },
