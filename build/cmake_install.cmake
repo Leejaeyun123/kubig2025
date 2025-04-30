@@ -50,7 +50,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ljy/kubig2025/build/stl/cmake_install.cmake")
   include("/home/ljy/kubig2025/build/smartpoint/cmake_install.cmake")
   include("/home/ljy/kubig2025/build/network/ipc/cmake_install.cmake")
-  include("/home/ljy/kubig2025/build/network/tcp/cmake_install.cmake")
+  include("/home/ljy/kubig2025/build/network/tcp_udp/cmake_install.cmake")
   include("/home/ljy/kubig2025/build/network/util/cmake_install.cmake")
 
 endif()

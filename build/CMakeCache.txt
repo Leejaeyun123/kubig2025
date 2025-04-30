@@ -260,13 +260,13 @@ network_icp_IS_TOP_LEVEL:STATIC=OFF
 network_icp_SOURCE_DIR:STATIC=/home/ljy/kubig2025/network/ipc
 
 //Value Computed by CMake
-network_tcp_BINARY_DIR:STATIC=/home/ljy/kubig2025/build/network/tcp
+network_tcp_BINARY_DIR:STATIC=/home/ljy/kubig2025/build/network/tcp_udp
 
 //Value Computed by CMake
 network_tcp_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-network_tcp_SOURCE_DIR:STATIC=/home/ljy/kubig2025/network/tcp
+network_tcp_SOURCE_DIR:STATIC=/home/ljy/kubig2025/network/tcp_udp
 
 //Value Computed by CMake
 network_util_BINARY_DIR:STATIC=/home/ljy/kubig2025/build/network/util
