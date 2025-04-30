@@ -676,6 +676,16 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/tcp_udp/CMakeFiles/bound_host0.dir/bound_host0.c.o -c /home/ljy/kubig2025/network/tcp_udp/bound_host0.c",
+  "file": "/home/ljy/kubig2025/network/tcp_udp/bound_host0.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/tcp_udp/CMakeFiles/bound_host1.dir/bound_host1.c.o -c /home/ljy/kubig2025/network/tcp_udp/bound_host1.c",
+  "file": "/home/ljy/kubig2025/network/tcp_udp/bound_host1.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/tcp_udp/CMakeFiles/echo_client.dir/echo_client.c.o -c /home/ljy/kubig2025/network/tcp_udp/echo_client.c",
   "file": "/home/ljy/kubig2025/network/tcp_udp/echo_client.c"
 },
@@ -683,6 +693,16 @@
   "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/tcp_udp/CMakeFiles/echo_server.dir/echo_server.c.o -c /home/ljy/kubig2025/network/tcp_udp/echo_server.c",
   "file": "/home/ljy/kubig2025/network/tcp_udp/echo_server.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/tcp_udp/CMakeFiles/file_client.dir/file_client.c.o -c /home/ljy/kubig2025/network/tcp_udp/file_client.c",
+  "file": "/home/ljy/kubig2025/network/tcp_udp/file_client.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/tcp_udp/CMakeFiles/file_server.dir/file_server.c.o -c /home/ljy/kubig2025/network/tcp_udp/file_server.c",
+  "file": "/home/ljy/kubig2025/network/tcp_udp/file_server.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
@@ -696,6 +716,11 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/tcp_udp/CMakeFiles/info.dir/info.c.o -c /home/ljy/kubig2025/network/tcp_udp/info.c",
+  "file": "/home/ljy/kubig2025/network/tcp_udp/info.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/tcp_udp/CMakeFiles/op_client.dir/op_client.c.o -c /home/ljy/kubig2025/network/tcp_udp/op_client.c",
   "file": "/home/ljy/kubig2025/network/tcp_udp/op_client.c"
 },
@@ -703,6 +728,16 @@
   "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/tcp_udp/CMakeFiles/op_server.dir/op_server.c.o -c /home/ljy/kubig2025/network/tcp_udp/op_server.c",
   "file": "/home/ljy/kubig2025/network/tcp_udp/op_server.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/tcp_udp/CMakeFiles/uecho_client.dir/uecho_client.c.o -c /home/ljy/kubig2025/network/tcp_udp/uecho_client.c",
+  "file": "/home/ljy/kubig2025/network/tcp_udp/uecho_client.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/tcp_udp/CMakeFiles/uecho_server.dir/uecho_server.c.o -c /home/ljy/kubig2025/network/tcp_udp/uecho_server.c",
+  "file": "/home/ljy/kubig2025/network/tcp_udp/uecho_server.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
