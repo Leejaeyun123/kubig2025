@@ -676,6 +676,16 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/sigaction.dir/sigaction.c.o -c /home/ljy/kubig2025/network/ipc/sigaction.c",
+  "file": "/home/ljy/kubig2025/network/ipc/sigaction.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/signal.dir/signal.c.o -c /home/ljy/kubig2025/network/ipc/signal.c",
+  "file": "/home/ljy/kubig2025/network/ipc/signal.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/tcp_udp/CMakeFiles/bound_host0.dir/bound_host0.c.o -c /home/ljy/kubig2025/network/tcp_udp/bound_host0.c",
   "file": "/home/ljy/kubig2025/network/tcp_udp/bound_host0.c"
 },
@@ -758,6 +768,11 @@
   "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/inet_addr.dir/inet_addr.c.o -c /home/ljy/kubig2025/network/util/inet_addr.c",
   "file": "/home/ljy/kubig2025/network/util/inet_addr.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/remove_zombie.dir/remove_zombie.c.o -c /home/ljy/kubig2025/network/multiProcess/remove_zombie.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/remove_zombie.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
