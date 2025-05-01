@@ -796,8 +796,33 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/echo_selectcli.dir/echo_selectcli.c.o -c /home/ljy/kubig2025/network/multiProcess/echo_selectcli.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/echo_selectcli.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/echo_selectsrv.dir/echo_selectsrv.c.o -c /home/ljy/kubig2025/network/multiProcess/echo_selectsrv.c",
   "file": "/home/ljy/kubig2025/network/multiProcess/echo_selectsrv.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/news_receiver.dir/news_receiver.c.o -c /home/ljy/kubig2025/network/multiProcess/news_receiver.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/news_receiver.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/news_receiver_brd.dir/news_receiver_brd.c.o -c /home/ljy/kubig2025/network/multiProcess/news_receiver_brd.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/news_receiver_brd.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/news_sender.dir/news_sender.c.o -c /home/ljy/kubig2025/network/multiProcess/news_sender.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/news_sender.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/news_sender_brd.dir/news_sender_brd.c.o -c /home/ljy/kubig2025/network/multiProcess/news_sender_brd.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/news_sender_brd.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
