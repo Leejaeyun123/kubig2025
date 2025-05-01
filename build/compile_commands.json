@@ -646,6 +646,11 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/pipe_server_epoll.dir/pipe_server_epoll.c.o -c /home/ljy/kubig2025/network/ipc/pipe_server_epoll.c",
+  "file": "/home/ljy/kubig2025/network/ipc/pipe_server_epoll.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/ipc/CMakeFiles/pipe_server_select.dir/pipe_server_select.c.o -c /home/ljy/kubig2025/network/ipc/pipe_server_select.c",
   "file": "/home/ljy/kubig2025/network/ipc/pipe_server_select.c"
 },
