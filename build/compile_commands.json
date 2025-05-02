@@ -811,6 +811,11 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/chat_serv.dir/chat_serv.c.o -c /home/ljy/kubig2025/network/multiProcess/chat_serv.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/chat_serv.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/echo_epollcli.dir/echo_epollcli.c.o -c /home/ljy/kubig2025/network/multiProcess/echo_epollcli.c",
   "file": "/home/ljy/kubig2025/network/multiProcess/echo_epollcli.c"
 },
