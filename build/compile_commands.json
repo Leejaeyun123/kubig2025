@@ -786,8 +786,28 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/pthread_test.dir/pthread_test.c.o -c /home/ljy/kubig2025/network/util/pthread_test.c",
+  "file": "/home/ljy/kubig2025/network/util/pthread_test.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/pthread_test2.dir/pthread_test2.c.o -c /home/ljy/kubig2025/network/util/pthread_test2.c",
+  "file": "/home/ljy/kubig2025/network/util/pthread_test2.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/select.dir/select.c.o -c /home/ljy/kubig2025/network/util/select.c",
   "file": "/home/ljy/kubig2025/network/util/select.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/echo_epollcli.dir/echo_epollcli.c.o -c /home/ljy/kubig2025/network/multiProcess/echo_epollcli.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/echo_epollcli.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/echo_epollserv.dir/echo_epollserv.c.o -c /home/ljy/kubig2025/network/multiProcess/echo_epollserv.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/echo_epollserv.c"
 },
 {
   "directory": "/home/ljy/kubig2025/build",
