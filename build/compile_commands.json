@@ -796,6 +796,16 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/pthread_test3.dir/pthread_test3.c.o -c /home/ljy/kubig2025/network/util/pthread_test3.c",
+  "file": "/home/ljy/kubig2025/network/util/pthread_test3.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/pthread_test4.dir/pthread_test4.c.o -c /home/ljy/kubig2025/network/util/pthread_test4.c",
+  "file": "/home/ljy/kubig2025/network/util/pthread_test4.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/util/CMakeFiles/select.dir/select.c.o -c /home/ljy/kubig2025/network/util/select.c",
   "file": "/home/ljy/kubig2025/network/util/select.c"
 },
