@@ -811,6 +811,11 @@
 },
 {
   "directory": "/home/ljy/kubig2025/build",
+  "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/chat_clnt.dir/chat_clnt.c.o -c /home/ljy/kubig2025/network/multiProcess/chat_clnt.c",
+  "file": "/home/ljy/kubig2025/network/multiProcess/chat_clnt.c"
+},
+{
+  "directory": "/home/ljy/kubig2025/build",
   "command": "/usr/bin/gcc -g -o network/multiProcess/CMakeFiles/chat_serv.dir/chat_serv.c.o -c /home/ljy/kubig2025/network/multiProcess/chat_serv.c",
   "file": "/home/ljy/kubig2025/network/multiProcess/chat_serv.c"
 },
