@@ -1,3 +1,6 @@
-print("Enter your name:")
-somebody = input()
-print("Hi", somebody, "How are you today?")
+print("본 프로그램은 섭씨온도를 화씨온도로 변환하는 프로그램입니다.")
+c = float(input("변환하고 싶은 섭씨온도를 입력하세요."))
+print("섭씨온도: ", c)
+print("화씨온도: ", c * 1.8 + 32 )
+
+
