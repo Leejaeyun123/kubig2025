@@ -1,6 +1,7 @@
-# 덧셈
 color1 = ['red', 'blue', 'green']
 color2 = ['orange', 'black', 'white']
+
+# 덧셈
 print(color1+color2)
 print(len(color1))
 total_color = color1+color2
