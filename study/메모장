@@ -11,6 +11,7 @@ main은 함수이고 예약어, (출력 data)함수명(입력 data)
 cc -o testQueue main.o queue.o -l libc.so <- cc -o testQueue main.o queue.o의 원형
 char포인터는 1바이트, int포인터는 4바이트, double포인터는 8바이트
 포인터의 타입은 포인터가 가리키는 대상
+코드 안에 수를 표현할 때 8진수는 0, 16진수는 0x를 붙인다. ex) 10진수 12 = 8진수 014 = 16진수 0xc
 
 C++
 c언어에서는 인자를 안 쓰면 어떤 값이 들어올지 몰라서 void를 쓴다. c++에서는 void를 써도 되고 안 써도 된다.
