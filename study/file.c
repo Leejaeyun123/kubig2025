@@ -2,13 +2,18 @@
 
 int main(void)
 {
-    char ch1, ch2;
-    ch1 = 'A';
-    ch2 = 65;
+    int income = 456;
+    double tax;
+    double tax_rate = 0.12;
+    tax_rate = 0.15;
+    tax_rate = 0.16;
+    tax_rate = 0.17;
+    tax_rate = 0.18;
+    tax_rate = 0.19;
+   
+    tax = income * tax_rate;
+    printf("세금은 : %.1lf입니다.\n", tax);
 
-    printf("문자 %c의 아스키 코드 값 : %d\n", ch1, ch1);
-    printf("아스키 코드 값이 %d인 문자 : %c\n", ch2, ch2);
-    
     return 0;
 }
 
