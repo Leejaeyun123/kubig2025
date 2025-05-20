@@ -2,19 +2,18 @@
 
 int main(void)
 {
-    int income = 456;
-    double tax;
-    double tax_rate = 0.12;
-    tax_rate = 0.15;
-    tax_rate = 0.16;
-    tax_rate = 0.17;
-    tax_rate = 0.18;
-    tax_rate = 0.19;
-   
-    tax = income * tax_rate;
-    printf("세금은 : %.1lf입니다.\n", tax);
+int kor = 3, eng = 5, mat = 4; 
+int credits = kor + eng + mat;
+int res;
+double kscore = 3.8, escore = 4.4, mscore = 3.9;
+double grade = kscore + escore + mscore / 3;
 
-    return 0;
+printf("전체 학점 : %d\n", credits);
+printf("평점의 평균 : %.1f\n", grade);
+res = (credits>=10) && (grade>4);
+printf("%d\n", res);
+
+return 0;
 }
 
 
