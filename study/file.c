@@ -2,14 +2,10 @@
 
 int main(void)
 {
-int a = 20, b = 3;
-double res;
-
-res = ((double)a);
-printf("a : %d, b = %d\n", a, b);
-printf("a와 b의 결과 : %.1lf\n", res);
-
-return 0;
+    int a = 10, b = 12;
+    printf("a << 1 : %d\n", a << 1);
+    printf("a >> 2 : %d\n", a >> 2);
+    return 0;
 }
 
 
