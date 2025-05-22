@@ -2,10 +2,25 @@
 
 int main(void)
 {
-    int a = 10, b = 12;
-    printf("a << 1 : %d\n", a << 1);
-    printf("a >> 2 : %d\n", a >> 2);
+    int a = 0, b = 0;
+
+    if  (a > 0)
+    {
+        b = 1;
+    }
+    else if (a < 0)
+    {
+        b = 2;
+    }
+    else if (a == -1)
+    {
+        b = 3;
+    }
+    else
+    {
+        b = 4;
+    }
+    printf("%d\n", b);
+
     return 0;
 }
-
-
