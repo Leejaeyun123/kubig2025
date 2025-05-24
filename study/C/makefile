@@ -1,4 +1,4 @@
-TARGET = if while switchcase for forif forfor forfor2 asdf
+TARGET = if while switchcase for forif forfor forfor2
 all : ${TARGET}
 
 if : $@
@@ -8,7 +8,6 @@ for : $@
 forif : $@
 forfor : $@
 forfor2 : $@
-asdf : $@
 
 clean :
 	rm ${TARGET}
