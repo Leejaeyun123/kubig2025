@@ -1,7 +1,67 @@
 #include <stdio.h>
 
+int sum(int x, int y);
+
 int main(void)
 {
-	int a = 10;
-	printf("~a : %d\n", ~a);
+	int a = 10, b = 20;
+	int result;
+
+	result = sum(a, b);
+	printf("result : %d\n", result);
+
+	return 0;
 }
+
+int sum(int x, int y)
+{
+	int temp;
+
+	temp = x + y;
+
+	return temp;
+}							// <- 1
+
+/*int sum(int x,int y);
+
+int sum(int x, int y)
+{
+	int temp;
+
+	temp = x + y;
+
+	return temp;
+}
+
+int main(void)
+{
+	int a = 10, b = 20;
+	int result;
+
+	result = sum(a, b);
+	printf("result : %d\n", result);
+
+	return 0;
+}*/							// <- 2
+
+/*int sum(int x, int y)
+{
+	int temp;
+
+	temp = x + y;
+
+	return temp;
+}
+
+int main(void)
+{
+	int a = 10, b = 20;
+	int result;
+
+	result = sum(a, b);
+	printf("result : %d\n", result);
+
+	return 0;
+}*/							// <- 3
+
+
