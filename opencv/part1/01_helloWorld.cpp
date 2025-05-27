@@ -17,10 +17,10 @@ int main()
         return -1;
     }
 
-    cout << img << endl;
-    namedWindow("lenna", WINDOW_AUTOSIZE);
-    Size size(640, 480);
-    resizeWindow("lenna", size);
+    // cout << img << endl;
+    namedWindow("lenna", WINDOW_NORMAL);
+    // Size size(640, 480);
+    // resizeWindow("lenna", size);
 
     imshow("lenna", img);
     waitKey();
@@ -28,7 +28,7 @@ int main()
     jpg_params.push_back(IMWRITE_JPEG_QUALITY);
     jpg_params.push_back(20);
 
-    imwrite(folderPath + "lenna_save.jpg", img, jpg_params);
+    imwrite(folderPath + "lenna_save_20.jpg", img, jpg_params);
 
     return 0;
 }
