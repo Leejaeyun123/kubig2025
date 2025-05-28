@@ -1,3 +1,6 @@
+cmake 설정 방법
+mkdir build -> cd build -> cmake .. -> make -> ./실행할 파일
+
 C
 ++a : 현재 a값에서 1을 추가하여 지금부터 사용  
  b++ : 현재는 b값으로 하고, 다음부터 1을 추가한 값을 사용
