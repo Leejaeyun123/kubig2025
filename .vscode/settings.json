@@ -112,5 +112,13 @@
         "plaintext": true,
         "markdown": true,
         "scminput": false
-    }
+    },
+    "[c]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+        "editor.formatOnSave": true
+        // "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+        // "C_Cpp.formatting": "clangFormat"
+    },
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+    "C_Cpp.formatting": "clangFormat"
 }
