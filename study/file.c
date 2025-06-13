@@ -1,19 +1,22 @@
 #include <stdio.h>
 
-void print_char(char ch, int count);
+void print_line(void);
 
-int main(void) 
+int main(void)
 {
-  print_char('@', 5);
-  return 0;
+    print_line();
+    printf("학번            이름            전공            학점\n");
+    print_line();
+
+    return 0;
 }
-void print_char(char ch, int count) 
+
+void print_line(void)
 {
-  int i;
-  if (count > 10) return;
-  for (i = 0; i < count; i++) 
-  {
-    printf("%c", ch);
-  }
-  return;
+    int i;
+    for (i = 0; i < 50; i++)
+    {
+        printf("-");
+    }
+    printf("\n");
 }

@@ -715,6 +715,11 @@ ex) void print_char(char ch, int count)
 ex) print_char('@', 5) + 10     <- print_char의 반환값이 없으므로 10과 더하기 X     p.223~225
 
 
+26일차(6/13)
+
+void 함수명(void)로 함수의 원형을 만들면 매개변수와 반환값 X
+ex) 
+
 
 
 
