@@ -1,22 +1,17 @@
 #include <stdio.h>
 
-void print_line(void);
+void fruit(int count);
 
 int main(void)
 {
-    print_line();
-    printf("학번            이름            전공            학점\n");
-    print_line();
-
+    fruit(1);
     return 0;
 }
 
-void print_line(void)
+void fruit(int count)
 {
-    int i;
-    for (i = 0; i < 50; i++)
-    {
-        printf("-");
-    }
-    printf("\n");
+    printf("apple\n");
+    if  (count == 3) return;
+    fruit(count + 1);
+    printf("jam\n");
 }
