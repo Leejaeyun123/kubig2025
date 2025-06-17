@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-void fruit(int count);
-
 int main(void)
 {
-    fruit(1);
-    return 0;
-}
+    int ary[5];
 
-void fruit(int count)
-{
-    printf("apple\n");
-    if  (count == 3) return;
-    fruit(count + 1);
-    printf("jam\n");
+    ary[0] = 10;
+    ary[1] = 20;
+    ary[2] = ary[0] + ary[1];
+    scanf("%d", &ary[3]);
+
+    printf("%d\n", ary[2]);
+    printf("%d\n", ary[3]);
+    printf("%d\n", ary[4]);
+
+    return 0;
 }
