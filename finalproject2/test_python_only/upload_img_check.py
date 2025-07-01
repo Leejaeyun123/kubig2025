@@ -82,7 +82,6 @@ from flask import session
 
 def check_uploaded_image(image_path: str) -> str:
     image = cv2.imread(image_path)
-    
     if image is None:
         print("[Error] Failed to load image.")
         return "DECODE_FAIL"

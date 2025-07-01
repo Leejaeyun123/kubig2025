@@ -1,0 +1,65 @@
+/* 추천 이미지들 가로 정렬 영역 */
+.recommend-page .recommend-section {
+  display: flex;                /* Flexbox로 가로 정렬 */
+  gap: 30px;                    /* 박스들 사이 간격 30px */
+  align-items: flex-start;      /* 이미지 박스 위쪽 정렬 */
+  justify-content: center;      /* 전체 가운데 정렬 */
+}
+
+/* 각각의 이미지 박스 (원본/크롭) */
+.recommend-page .image-box {
+  display: flex;                /* Flexbox */
+  flex-direction: column;       /* 세로로 쌓기 */
+  align-items: center;          /* 가로 중앙 정렬 */
+}
+
+/* 검출된 상반신 이미지 */
+.recommend-page .cropped-img {
+  border: 2px solid white;      /* 흰색 테두리 2px */
+  margin-top: 10px;             /* 위 이미지랑 간격 */
+}
+
+/* 원본 이미지 */
+.recommend-page .original-img {
+  border: 1px solid #ddd;       /* 옅은 회색 테두리 */
+  margin-top: 10px;             /* 위 간격 */
+  width: 120px;                 /* 이미지 폭 고정 */
+}
+
+/* 사용자 닉네임 인사말 / 이미지 라벨 / 아이템 이름 / 추천없음 메시지 */
+.recommend-page .greeting,
+.recommend-page .cropped-img-label,
+.recommend-page .original-img-label,
+.recommend-page .item-name,
+.recommend-page .no-recommend-msg {
+  color: white;                 /* 흰색 글자 */
+}
+
+/* 크롭/원본 이미지 라벨 크기 */
+.recommend-page .cropped-img-label,
+.recommend-page .original-img-label {
+  font-size: 14px;              /* 작은 글자 크기 */
+}
+
+/* 추천 실패시 나오는 안내 문구들 */
+.recommend-page .no-recommend-tips {
+  color: lightgray;             /* 옅은 회색 글자 */
+  font-size: 12px;              /* 글자 작게 */
+}
+
+
+/* 라디오 버튼 영역 전체 */
+.recommend-page .recommend-form {
+  margin-top: 30px;             /* 위 간격 */
+}
+
+/* 옷 선택 옵션들 */
+.recommend-page .clothes-selection {
+  display: flex;                /* Flexbox로 가로 정렬 */
+  flex-wrap: wrap;              /* 넘치면 줄바꿈 */
+  gap: 20px;                    /* 옷 간격 */
+}
+
+.recommend-page .upload-btn {
+  margin-top: 20px;             /* 위쪽 여백 */
+}
