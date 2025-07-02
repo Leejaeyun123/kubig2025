@@ -5,7 +5,6 @@
   box-sizing: border-box;   /* padding, border 포함해서 너비 계산 */
 }
 
-.upload-page html,
 .upload-page body {
   height: 100%;             /* 브라우저 전체 높이 사용 */
   font-family: 'Noto Sans KR', sans-serif;  /* 글꼴 적용 */
@@ -44,7 +43,7 @@
   top: 20px;                 /* 위쪽 여백 */
   right: 20px;               /* 오른쪽 여백 */
   display: flex;             /* 버튼과 텍스트 가로 정렬 */
-  gap: 0.5rem;               /* 버튼과 글자 사이 여백 */
+  gap: 1rem;               /* 버튼과 글자 사이 여백 */
   z-index: 10;               /* 다른 요소 위에 표시 */
   pointer-events: auto;      /* 클릭 이벤트 허용 */
 }
@@ -52,10 +51,9 @@
 /* 닉네임 인사말 글씨 */
 .upload-page .greeting {
   font-size: 1.1rem;         /* 글자 크기 */
-  color: white;              /* 흰색 글자 */
+  margin-top: 10px;          /* 위에서 약간 내려옴 */
   margin-bottom: 1rem;       /* 아래 여백 */
   z-index: 2;                /* 위에 표시 */
-  line-height:2.8rem;
 }
 
 /* 왼쪽 업로드 안내 박스 */
@@ -110,29 +108,24 @@
   font-size: 1rem;           /* 글자 크기 */
 }
 
-/* 파일 선택 버튼 스타일링 */
-.file-label {
-  background-color: #FEE500; /* 카카오 노랑색 */
-  color: #3C1E1E;           /* 갈색 글자 */
-  border: none;             /* 테두리 없음 */
-  padding: 0.6rem 1.2rem;   /* 안쪽 여백 */
-  font-size: 1rem;          /* 글자 크기 */
-  font-weight: bold;        /* 글자 굵게 */
-  border-radius: 5px;       /* 둥근 모서리 */
-  cursor: pointer;          /* 마우스 커서 손가락 모양 */
-  transition: background 0.2s ease; /* hover 시 부드러운 색 변화 */
+.upload-page input[type="file"] {
+  display: none;   /* ← 진짜 input 숨김 */
 }
 
-.file-label input[type="file"] {
-  display: none;  /* 진짜 input은 숨김 */
-}
-
-.file-name {
+.custom-file-upload {
+  background-color: #FEE500;
+  color: #3C1E1E;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
   display: inline-block;
-  margin-left: 16px;
-  color: black;
-  font-size: 0.96rem;
-  vertical-align: middle;
+  margin-bottom: 1rem;
+}
+
+.custom-file-upload:hover {
+  background-color: #e0ca00;
 }
 
 /* 반응형: 화면 넓어질 때 크기 변화 */
@@ -150,18 +143,6 @@
   .upload-page .top-right {
     top: 30px;               /* 상단 여백 증가 */
     right: 30px;             /* 오른쪽 여백 증가 */
-  }
-  /* 마 여기 바꾸라 */
-  .upload-page .hero {
-  position: relative;        /* 내부 요소의 절대위치 기준점 */
-  width: 100%;               /* 가로 전체 */
-  height: 100vh;             /* 한 화면 가득 높이 */
-  display: flex;             /* Flexbox로 중앙 정렬 */
-  justify-content: center;   /* 가로축 중앙 */
-  align-items: center;       /* 세로축 중앙 */
-  background-size: cover;          /* 이미지가 영역 꽉 채우게 */
-  background-position: top;     /* 가운데 정렬 */
-  background-repeat: no-repeat;    /* 반복 없음 */
   }
 }
 
@@ -181,15 +162,4 @@
     top: 30px;               /* 상단 여백 증가 */
     right: 30px;             /* 오른쪽 여백 증가 */
   }
-  .upload-page .hero {
-  position: relative;        /* 내부 요소의 절대위치 기준점 */
-  width: 100%;               /* 가로 전체 */
-  height: 100vh;             /* 한 화면 가득 높이 */
-  display: flex;             /* Flexbox로 중앙 정렬 */
-  justify-content: center;   /* 가로축 중앙 */
-  align-items: center;       /* 세로축 중앙 */
-  background-size: 50%;          /* 이미지가 영역 꽉 채우게 */
-  background-position: top;     /* 가운데 정렬 */
-  background-repeat: no-repeat;    /* 반복 없음 */
-}
 }

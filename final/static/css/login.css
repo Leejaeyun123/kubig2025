@@ -16,24 +16,26 @@
 .login-page .form-container {
   width: 100%;                       /* 모바일에서 가로 100% */
   max-width: 400px;                  /* 최대 너비 400px */
-  margin: 5% auto;                   /* 위에서 5% 여백, 좌우 가운데 */
+  margin: 10% auto;                   /* 위에서 5% 여백, 좌우 가운데 */
   padding: 2rem;                     /* 내부 여백 */
   background-color: #fff;            /* 배경색 흰색 */
   border-radius: 10px;               /* 둥근 모서리 */
   color: #000;                       /* 글자색 검정 */
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* 연한 외곽 그림자 */
   text-align: center;                /* 가운데 정렬 */
-  display: flex;                     /* Flexbox로 정렬 */
-  flex-direction: column;            /* 세로 방향 정렬 */
-  justify-content: center;           /* 세로축 중앙 */
-  align-items: center;               /* 가로축 중앙 */
+}
+
+.login-page h2 {
+  margin-bottom: 2rem;   /* 원하는 만큼 아래 공간 주기 */
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* 입력창 스타일 (아이디/비번) */
 .login-page input[type="text"],
 .login-page input[type="password"] {
   width: 100%;                       /* 가로 꽉 차게 */
-  padding: 0.7rem;                   /* 안쪽 여백 */
+  padding: 1rem;                   /* 안쪽 여백 */
   margin-bottom: 1rem;               /* 아래 여백 */
   border-radius: 5px;                /* 둥근 모서리 */
   border: 1px solid #000;            /* 검정 테두리 */
