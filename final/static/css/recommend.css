@@ -60,6 +60,24 @@
   gap: 20px;                    /* 옷 간격 */
 }
 
+.recommend-page button {
+  background-color: #FEE500; /* 카카오톡 노랑색 느낌 */
+  color: #3C1E1E;            /* 버튼 텍스트 색상 (갈색톤) */
+  border: none;              /* 테두리 제거 */
+  padding: 0.6rem 1.2rem;    /* 버튼 안쪽 여백 */
+  font-size: 1rem;           /* 글자 크기 */
+  font-weight: bold;         /* 글자 굵게 */
+  border-radius: 5px;        /* 모서리 둥글게 */
+  cursor: pointer;           /* 마우스 올리면 손가락 커서 */
+  transition: background 0.2s ease; /* hover 시 부드럽게 색상 전환 */
+  margin-bottom: 1rem;   /* ← 추가: 아래 공백 생성 */
+}
+
+/* 버튼 호버 효과(마우스 커서를 버튼 위에 올렸을 때 버튼의 색상, 크기, 테두리, 그림자 등이 바뀌는 **"마우스 오버 효과"**) */
+.recommend-page button:hover {
+  background-color: #e0ca00; /* 더 어두운 노랑색 */
+}
+
 .recommend-page .upload-btn {
   margin-top: 20px;             /* 위쪽 여백 */
 }

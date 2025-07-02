@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>가상 피팅 결과</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/test.css') }}">
 </head>
-<body class="form-container">
+<body class="result-page form-container background">
   <div class="hero">
     <div class="overlay">
       {% if user %}
         <div class="top-right">
-          <span class="greeting" style="color: white;">{{ user.nickname }} 님</span>
+          <span class="greeting" style="color: rgb(0, 0, 0);">{{ user.nickname }} 님</span>
           <a href="/logout"><button class="logout-btn">로그아웃</button></a>
         </div>
       {% endif %}

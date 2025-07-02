@@ -57,13 +57,14 @@
   <meta charset="UTF-8">
   <title>추천 상의</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/recommend.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/test.css') }}">
 </head>
-<body class="recommend-page">
+<body class="recommend-page form-container background">
 <div class="hero">
   <div class="overlay">
     {% if user %}
       <div class="top-right">
-        <span class="greeting">{{ user.nickname }} 님</span>
+        <span class="greeting" style="color: rgb(0, 0, 0);">{{ user.nickname }} 님</span>
         <a href="/logout"><button class="logout-btn">로그아웃</button></a>
       </div>
     {% endif %}
@@ -74,7 +75,7 @@
       <div class="recommend-section">
         <div class="image-box">
           {% if cropped_img_url %}
-            <p class="cropped-img-label">[검출된 상반신]</p>
+            <p class="cropped-img-label" style="color: rgb(0, 0, 0);">[검출된 상반신]</p>
             <img src="{{ cropped_img_url }}" width="200" class="cropped-img">
           {% endif %}
         </div>

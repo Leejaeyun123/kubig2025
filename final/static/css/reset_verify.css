@@ -15,13 +15,12 @@
 /* 폼 컨테이너 박스 */
 .reset-verify-page .form-container {
   width: 100%;                       /* 모바일에서는 가로 100% */
-  max-width: 400px;                  /* PC에서는 최대 너비 400px */
   margin: 5% auto;                   /* 위에서 5% 여백 + 좌우 가운데 정렬 */
   padding: 2rem;                     /* 내부 여백 */
-  background-color: #111;            /* 배경색: 어두운 회색 (거의 검정색) */
   border-radius: 10px;               /* 모서리 둥글게 */
-  color: white;                      /* 글자색: 흰색 */
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* 연한 테두리 그림자 효과 */
+  max-width: 400px;
+  max-height: 550px;
 }
 
 /* 인증코드 입력창 스타일 */

@@ -15,12 +15,12 @@
 /* 로그인 폼 컨테이너 */
 .login-page .form-container {
   width: 100%;                       /* 모바일에서 가로 100% */
-  max-width: 400px;                  /* 최대 너비 400px */
   margin: 10% auto;                   /* 위에서 5% 여백, 좌우 가운데 */
+  max-width: 400px;
+  max-height: 550px;
   padding: 2rem;                     /* 내부 여백 */
-  background-color: #fff;            /* 배경색 흰색 */
   border-radius: 10px;               /* 둥근 모서리 */
-  color: #000;                       /* 글자색 검정 */
+  color: #000000;                       /* 글자색 검정 */
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* 연한 외곽 그림자 */
   text-align: center;                /* 가운데 정렬 */
 }
