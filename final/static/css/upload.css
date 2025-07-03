@@ -37,19 +37,21 @@
 /* 오른쪽 상단 사용자 정보 & 로그아웃 */
 .upload-page .top-right {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 31px !important;
+  right: 30px !important;
   display: flex;
-  gap: 1rem;
+  gap: 0.8rem;
   z-index: 10;
   pointer-events: auto;  /* 로그인 영역은 클릭 가능 */
 }
 
 .upload-page .greeting {
   font-size: 1.1rem;
-  margin-top: 10px;
+  margin-top: 13px;
   margin-bottom: 1rem;
   z-index: 2;
+  position: relative;
+  top: -2px;
 }
 
 /* 왼쪽 업로드 박스 (form-container로 이름 통일) */
@@ -76,16 +78,18 @@
   pointer-events: auto;
 }
 
-.upload-page button {
+.upload-page .logout-btn {
   background-color: #FEE500;
   color: #3C1E1E;
   border: none;
-  padding: 0.6rem 1.2rem;
-  font-size: 1rem;
+  padding: 0.8rem 1.6rem;     /* 업로드 페이지와 동일한 패딩 */
+  font-size: 1.1rem;          /* 글자 크기 */
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.2s ease;
+  position: relative;
+  top: 0px;
 }
 
 .upload-page .custom-file-upload {

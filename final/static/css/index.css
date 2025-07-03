@@ -76,20 +76,6 @@
   width: 25%;                /* 전체 너비의 25%로 강제 비율 조절 */
 }
 
-/* 오른쪽 상단 로그인/로그아웃 영역 */
-.main-page .top-right {
-  position: absolute;        /* 화면의 절대 위치 */
-  top: 20px;                 /* 위쪽에서 20px 여백 */
-  right: 20px;               /* 오른쪽에서 20px 여백 */
-  display: flex;             /* 버튼들 가로 정렬 */
-  gap: 0.5rem;               /* 버튼 사이 간격 */
-  z-index: 10;               /* 다른 요소보다 위에 표시 */
-  pointer-events: auto;      /* 마우스 클릭 허용 */
-  opacity: 0;                /* 처음엔 투명 */
-  animation: fadeIn 1s ease forwards; /* 서서히 나타남 */
-  animation-delay: 3s;       /* 6초 후에 나타남 */
-}
-
 /* 타이틀 문구 */
 .main-page .title {
   font-size: 2.2rem;          /* 글자 크기: 2.2rem (대략 35px 정도, 꽤 크게 보임) */
@@ -101,13 +87,26 @@
   pointer-events: auto;        /* 마우스 클릭이나 포커스 등 이벤트 허용 (기본값이지만 명시적으로 설정) */
 }
 
+.main-page .top-right {
+  position: absolute;        /* 화면의 절대 위치 */
+  top: 20px;                 /* 위쪽에서 20px 여백 */
+  right: 20px;               /* 오른쪽에서 20px 여백 */
+  display: flex;             /* 버튼들 가로 정렬 */
+  gap: 0.8rem;               /* 버튼 사이 간격 */
+  z-index: 10;               /* 다른 요소보다 위에 표시 */
+  pointer-events: auto;      /* 마우스 클릭 허용 */
+  opacity: 0;                /* 처음엔 투명 */
+  animation: fadeIn 1s ease forwards; /* 서서히 나타남 */
+  animation-delay: 3s;       /* 6초 후에 나타남 */
+}
+
 /* 사용자 이름 인사말 영역 */
 .greeting {
   font-size: 1.1rem;         /* 글자 크기 */
   color: rgb(0, 0, 0);              /* 검은색 글자 */
   margin-bottom: 1rem;       /* 아래 여백 */
   z-index: 2;                /* 다른 요소 위 */
-  line-height:3.2rem;
+  line-height: 3.2rem;
 }
 
 /* 이미지 기본 스타일 */
@@ -130,6 +129,8 @@
   border-radius: 5px;        /* 모서리 둥글게 */
   cursor: pointer;           /* 마우스 올리면 손가락 커서 */
   transition: background 0.2s ease; /* hover 시 부드럽게 색상 전환 */
+  position: relative;
+  top: 2px;
 }
 
 /* 버튼 호버 효과(마우스 커서를 버튼 위에 올렸을 때 버튼의 색상, 크기, 테두리, 그림자 등이 바뀌는 **"마우스 오버 효과"**) */

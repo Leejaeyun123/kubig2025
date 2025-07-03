@@ -23,6 +23,12 @@
   max-height: 550px;
 }
 
+.reset-request-page h2 {
+  margin-bottom: 2rem; /* 또는 16px, 원하는 만큼 조절 가능 */
+  text-align: center;  /* 필요 시 가운데 정렬 */
+  font-size: 2rem;
+}
+
 /* 입력창 스타일 (아이디 / 이름 / 이메일 입력창) */
 .reset-request-page input[type="text"],
 .reset-request-page input[type="password"],

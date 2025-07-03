@@ -18,3 +18,10 @@
   font-size: 14px;                 /* 작은 글자 크기 */
   color: #ccc;                     /* 옅은 회색 글자색 */
 }
+
+.loading-page .loading-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;       /* 이미지가 정사각형 안에 꽉 차도록 자름 */
+  border-radius: 10px;     /* 원하면 살짝 둥글게 */
+}

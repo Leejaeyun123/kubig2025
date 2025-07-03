@@ -33,6 +33,12 @@
   font-size: 1rem;                   /* 글자 크기 */
 }
 
+.reset-verify-page h2 {
+  margin-bottom: 1rem;  /* 문구와 입력창 사이에 공간 생성 */
+  text-align: center;   /* 필요시 가운데 정렬 */
+  font-size: 2rem;
+}
+
 /* 버튼 스타일 (다음 버튼) */
 .reset-verify-page button {
   background-color: #FEE500;          /* 노란색 배경 (카카오 느낌) */

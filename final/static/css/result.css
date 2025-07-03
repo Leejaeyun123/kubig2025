@@ -37,21 +37,23 @@
 
 /* 오른쪽 상단 - 사용자 이름과 로그아웃 버튼 */
 .result-page .top-right {
-  position: absolute;          /* 화면 오른쪽 상단 고정 */
-  top: 20px;                   /* 위쪽 여백 */
-  right: 20px;                 /* 오른쪽 여백 */
-  display: flex;               /* 수평 정렬 (닉네임 + 버튼) */
-  gap: 0.5rem;                 /* 요소 간 간격 */
-  z-index: 10;                 /* 다른 요소 위에 표시 */
-  pointer-events: auto;        /* 클릭 가능 */
+  position: absolute;    /* 화면 기준 고정 */
+  top: 23px !important;             /* 상단에서 20px 떨어지게 */
+  right: 30px !important;           /* 우측에서 20px 떨어지게 */
+  display: flex;         /* 수평 정렬 */
+  align-items: center;   /* 수직 가운데 정렬 */
+  gap: 10px;             /* 텍스트와 버튼 사이 여백 */
+  z-index: 10;           /* 다른 요소 위로 */
 }
 
 /* 사용자 이름 텍스트 스타일 */
 .result-page .greeting {
-  font-size: 1.1rem;           /* 글자 크기 */
-  color: white;                /* 글자색 흰색 */
-  margin-bottom: 1rem;         /* 아래 여백 */
-  z-index: 2;                  /* 위에 표시 */
+  font-size: 1.1rem;         /* 글자 크기 */
+  color: rgb(0, 0, 0);     /* 검은색 글자 */
+  z-index: 2;                /* 다른 요소 위 */
+  margin-right: 3px;
+  position: relative;
+  top: 2px;
 }
 
 /* 왼쪽 업로드 안내 박스 */
@@ -102,6 +104,18 @@
   width: 100%;                 /* 버튼 폭 100% (박스 가득) */
 }
 
+.result-page .logout-btn {
+  background-color: #FEE500;
+  color: #3C1E1E;
+  border: none;
+  padding: 0.8rem 1.6rem;     /* 업로드 페이지와 동일한 패딩 */
+  font-size: 1.1rem;          /* 글자 크기 */
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
 /* 버튼 hover 시 색상 변화 */
 .result-page button:hover,
 .result-page .upload-btn:hover,
@@ -119,7 +133,7 @@
 /* 반응형: 화면 넓어질 때 */
 @media screen and (min-width: 768px) {
   .result-page .title {
-    font-size: 2.2rem;         /* 큰 화면에서 타이틀 더 큼 */
+    font-size: 2.8rem;         /* 큰 화면에서 타이틀 더 큼 */
   }
 
   .result-page button,
@@ -130,7 +144,7 @@
   }
 
   .result-page .top-right {
-    top: 30px;                 /* 상단 여백 증가 */
-    right: 30px;               /* 오른쪽 여백 증가 */
+    top: 30px;
+    right: 30px;
   }
 }
