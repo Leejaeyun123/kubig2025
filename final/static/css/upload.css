@@ -60,7 +60,7 @@
   padding: 2rem;
   border-radius: 15px;
   max-width: 800px;          /* 원하는 최대 폭 */
-  max-height: 230px;
+  max-height: 300px;
   width: 100%;               /* 가로 100% */
   text-align: left;
   pointer-events: auto;      /* 클릭 허용 */
