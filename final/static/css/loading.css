@@ -13,10 +13,18 @@
   margin-bottom: 10px;             /* 아래 여백 */
 }
 
+.loading-page .loading-text {
+  font-size: 24px;
+  color: black;
+  margin-top: -90px;  /* 👈 이 값을 조절해서 위로 올리기 */
+  margin-left: 100px;
+}
+
 /* 서브 메시지 (예: "※ 조금 시간이 걸립니다...") */
 .loading-page .sub-message {
   font-size: 14px;                 /* 작은 글자 크기 */
   color: #ccc;                     /* 옅은 회색 글자색 */
+  margin-right: 50px;
 }
 
 .loading-page .loading-icon {
